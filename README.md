@@ -34,8 +34,6 @@ I learn by building. Whether it's designing a quadruped robot, publishing ROS2 n
 ---
 
 ## 📈 Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kimiko-11&show_icons=true&theme=tokyonight&hide=contribs,prs)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kimiko-11&layout=compact&theme=tokyonight)
 
 ---
