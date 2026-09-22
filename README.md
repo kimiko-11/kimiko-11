@@ -1,8 +1,8 @@
 # 👋 Hey there! I'm Kimaya Chavan
 
-🎓 3rd Year B.Tech Student | Artificial Intelligence & Data Science 
+🎓 Final Year B.Tech Student | Artificial Intelligence & Data Science 
 🤖 Aspiring Robotics Software Engineer — Perception & Computer Vision  
-📍 India | CGPA: 9.55 | DJSCE | VCP Technical @ DJS-ACM
+📍 India | CGPA: 9.55 | DJSCE | intern @ Devise Electronics pvt ltd
 
 ---
 
