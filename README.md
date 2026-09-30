@@ -64,26 +64,7 @@ Computer Vision  →  Deep Learning  →  ROS 2  →  Robotics  →  Perception
 
 ---
 
-## Featured Projects
 
-| Project | Stack | Link |
-|---------|-------|------|
-| **Computer Vision Pipeline** | Python • OpenCV • NumPy | [Repo](https://github.com/kimiko-11) |
-| **ROS 2 Learning** | ROS 2 • C++ • Python | [Repo](https://github.com/kimiko-11) |
-| **Deep Learning Experiments** | Python • Scikit-learn • NumPy | [Repo](https://github.com/kimiko-11) |
-| **Arduino Projects** | Embedded C • Arduino | [Repo](https://github.com/kimiko-11) |
-| **Robotics Exploration** | ROS 2 • Python | [Repo](https://github.com/kimiko-11) |
-| **Data Analysis** | Python • Pandas • Matplotlib | [Repo](https://github.com/kimiko-11) |
-
----
-
-<div align="center">
-
-## GitHub Statistics
-
-![Kimaya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kimiko-11&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff&icon_color=00D9FF)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kimiko-11&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff)
 
 ---
 
