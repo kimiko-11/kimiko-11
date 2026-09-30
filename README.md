@@ -12,14 +12,10 @@
 </p>
 
 <p>
-  <span style="color:#39FF14;font-weight:bold">●</span> **Open to:** robotics perception / computer vision internships
-</p>
-
-<p>
   <!-- Links row -->
   <a href="https://github.com/kimiko-11">GitHub</a> ·
   <a href="mailto:hellokimaya@gmail.com">Email</a> ·
-  <!-- TODO: add LinkedIn URL --> LinkedIn ·
+  <a href="https://www.linkedin.com/in/kimaya-chavan">LinkedIn</a> ·
   <!-- TODO: add resume URL --> Resume
 </p>
 
@@ -92,13 +88,12 @@ Git · Ubuntu · VS Code · Arduino · ESP8266
 
 - Email: [hellokimaya@gmail.com](mailto:hellokimaya@gmail.com)
 - GitHub: [kimiko-11](https://github.com/kimiko-11)
-- LinkedIn: <!-- TODO: add LinkedIn -->
+- LinkedIn: [kimaya-chavan](https://www.linkedin.com/in/kimaya-chavan)
 
 ---
 
 ## Maintenance & checklist
 
-- [ ] Add LinkedIn URL
 - [ ] Add resume link
 - [ ] Replace project placeholders and demo images (assets/project*-demo.*)
 - [ ] Verify generated SVGs render well in GitHub dark and light themes
