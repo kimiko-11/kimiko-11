@@ -1,53 +1,74 @@
-# 👋 Hey there! I'm Kimaya Chavan
 
-🎓 Final Year B.Tech Student | Artificial Intelligence & Data Science 
-🤖 Aspiring Robotics Software Engineer — Perception & Computer Vision  
-📍 India | CGPA: 9.55 | DJSCE | intern @ Devise Electronics pvt ltd
+#  Hey, I'm Kimaya Chavan
 
----
+###  Robotics Software Engineer in the Making | Perception • Computer Vision • Deep Learning
 
-## 💡 About Me
+🎓 Final-Year B.Tech — Artificial Intelligence & Data Science  
+📍 India | DJSCE | CGPA: **9.55**
 
-I'm passionate about building robots that can *see* and *think*.  
-Currently diving deep into **ROS2**, **OpenCV**, **embedded systems**, and **robot perception pipelines** using C++ and Python.
+I build systems that help robots **see, understand, and interact with their environment.**
 
-I learn by building. Whether it's designing a quadruped robot, publishing ROS2 nodes, or integrating real-time sensors — I enjoy solving problems hands-on.
+My current focus is **robot perception and computer vision**, with hands-on work across ROS 2, OpenCV, deep learning, embedded systems, and robotic systems.
 
 ---
 
-## 🔧 Technologies & Tools
+##  What I'm Building Toward
 
-**Languages**: Python, C++, C, Java, Embedded C  
-**Robotics**: ROS2, Gazebo, RViz, Arduino, ESP8266  
-**CV/ML**: OpenCV, NumPy, Scikit-learn, Pandas  
-**Tools**: Git, GitHub, Ubuntu, VSCode, OnShape, Figma
+**Perception → Understanding → Action**
 
----
+I'm particularly interested in:
 
-## 🚀 Projects
+- 👁️ Computer Vision & Visual Perception
+- 🤖 Robotics Software
+- 🧭 Robot Perception & Navigation
+- 🧠 Deep Learning for Vision
+- 📡 Sensor Integration
+- ⚙️ ROS 2 & Robotic Systems
+- 🦾 Physical AI & Embodied Intelligence
 
-🦾 [Autonomous Obstacle-Avoiding Robot](https://github.com/kimiko-11/autonomous-obstacle-avoiding-robot-)  
-📦 [ROS2 Pub/Sub Package](https://github.com/kimiko-11/ros2_pubsub)  
-🎯 [Color Tracking with OpenCV](https://github.com/kimiko-11/color-tracking-OpenCV)  
-📐 [Spot Robot CAD (OnShape)](https://github.com/kimiko-11)
-
----
-
-## 📈 Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kimiko-11&layout=compact&theme=tokyonight)
+I learn by building — from small computer vision experiments and ROS 2 nodes to complete robotic systems.
 
 ---
 
-## 📫 Let's Connect!
+## 🔧 Tech Stack
 
-📩 [hellokimaya@gmail.com](mailto:hellokimaya@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/kimaya-chavan)  
-🧠 [My Robotics Portfolio](https://ink-yew-1d6.notion.site/Robots-Code-Curiosity)
+### 💻 Programming
+`Python` `C++` `C` `Embedded C` `Java`
+
+### 🤖 Robotics
+`ROS 2` `Gazebo` `RViz` `Arduino` `ESP8266`
+
+### 👁️ Computer Vision & ML
+`OpenCV` `NumPy` `Pandas` `Scikit-learn`
+
+### 🛠️ Tools
+`Git` `GitHub` `Ubuntu` `VS Code` `Onshape` `Figma`
 
 ---
 
-> ⭐ Star my repos if you like them — I’m always open to feedback, collaboration, and cool robotics ideas!
+## 🧪 Currently Exploring
+
+```text
+Computer Vision
+      ↓
+Deep Learning
+      ↓
+Robot Perception
+      ↓
+ROS 2
+      ↓
+Physical AI
+````
+
+Currently learning and experimenting with:
+
+* Real-time object detection & tracking
+* ROS 2 perception pipelines
+* Vision-based robotics
+* Deep learning for computer vision
+* Sensor-driven robotic systems
 
 
-[![kimiko-11](https://www.codeabbey.com/index/user_banner/kimiko-11)](https://www.codeabbey.com/index/user_profile/kimiko-11)
+
+
 
