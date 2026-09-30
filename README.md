@@ -1,140 +1,234 @@
 <div align="center">
 
-```
-╔════════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║              KIMAYA CHAVAN — ROBOTICS SOFTWARE ENGINEER           ║
-║                                                                    ║
-║    Perception • Computer Vision • Deep Learning • Physical AI     ║
-║                                                                    ║
-╚════════════════════════════════════════════════════════════════════╝
-```
+# Kimaya Chavan
 
-[![GitHub](https://img.shields.io/badge/GitHub-kimiko--11-181717?style=for-the-badge&logo=github)](https://github.com/kimiko-11)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:hellokimaya@gmail.com)
+## Robotics Software Engineer | Perception | Computer Vision | Deep Learning
 
-> Building intelligent systems that enable robots to **see, understand, and interact** with their environment.
+<p>
+  <a href="https://github.com/kimiko-11">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:hellokimaya@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <img src="https://img.shields.io/badge/Location-India-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in India" />
+  <img src="https://img.shields.io/badge/CGPA-9.55/10-2ea44f?style=for-the-badge" alt="CGPA" />
+</p>
+
+---
+
+### Building Intelligent Robotic Systems
+
+> *Perception → Understanding → Autonomous Action*
+
+Designing and implementing computer vision and robotics systems that enable machines to perceive, interpret, and act intelligently in complex real-world environments.
+
+---
 
 </div>
 
----
-
-## About Me
-
-<img align="right" alt="coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+## 📊 Current Research & Development
 
 ```
-┌─ PROFILE ────────────────────────────────────────┐
-│                                                  │
-│  🎓 Final-year B.Tech in AI & Data Science     │
-│     Dwarkadas J. Sanghvi College of Engineering │
-│                                                  │
-│  🤖 Focus: Robotics Perception & CV Systems    │
-│  🧠 Exploring: Deep Learning for Vision Tasks  │
-│  🔬 Passionate About: Embodied Intelligence    │
-│  📚 Philosophy: Learn by Building               │
-│                                                  │
-└──────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                 ┃
+┃  Real-time Object Detection & Multi-Object Tracking           ┃
+┃  ├─ YOLO architectures and inference optimization            ┃
+┃  ├─ Multi-camera fusion & spatial reasoning                  ┃
+┃  └─ Edge deployment on embedded systems                      ┃
+┃                                                                 ┃
+┃  ROS 2 Perception Pipelines                                   ┃
+┃  ├─ Sensor data synchronization                              ┃
+┃  ├─ Real-time processing frameworks                          ┃
+┃  └─ Modular node architecture                                ┃
+┃                                                                 ┃
+┃  Vision-Based SLAM & Autonomous Navigation                    ┃
+┃  ├─ Feature extraction and matching                          ┃
+┃  ├─ Loop closure detection                                   ┃
+┃  └─ Path planning with dynamic obstacles                     ┃
+┃                                                                 ┃
+┃  Deep Learning for Edge Devices                               ┃
+┃  ├─ Model compression & quantization                         ┃
+┃  ├─ Transfer learning strategies                             ┃
+┃  └─ Real-time inference optimization                         ┃
+┃                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
 ---
 
-## Core Competencies
+## 🔬 Research Interests & Expertise
 
-| **Domain** | **Expertise** |
-|:---:|:---|
-| **Perception** | Computer Vision, Visual SLAM, Sensor Fusion, Real-time Processing |
-| **Robotics** | ROS 2 Architecture, Autonomous Navigation, Motion Planning |
-| **AI/ML** | Deep Learning, CNNs, Object Detection, Classification |
-| **Systems** | Real-time Embedded Software, Performance Optimization |
-| **Development** | Full-stack implementation from research to deployment |
+| **Domain** | **Focus Areas** |
+|:---|:---|
+| **Computer Vision** | Object detection, tracking, SLAM, semantic segmentation, visual understanding |
+| **Robotics Systems** | ROS 2 architecture, autonomous navigation, motion planning, control systems |
+| **Deep Learning** | CNNs, transfer learning, model optimization, real-time inference |
+| **Sensors & Fusion** | Multi-sensor integration, calibration, data fusion techniques |
+| **Embedded AI** | Edge deployment, resource optimization, real-time constraints |
 
 ---
 
-## Technical Arsenal
+## 💻 Technical Stack
 
-### 🔧 Languages & Core Skills
-
+### Core Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Embedded_C](https://img.shields.io/badge/Embedded_C-283593?style=flat-square&logo=arduino&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-### 🤖 Robotics & Vision Stack
-
+### Robotics & Autonomous Systems
 ![ROS_2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-FF6F00?style=flat-square&logoColor=white)
+![Nav2](https://img.shields.io/badge/Nav2-0078D4?style=flat-square&logoColor=white)
+
+### Computer Vision & Deep Learning
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Gazebo](https://img.shields.io/badge/Gazebo-002E5C?style=flat-square&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
 
-### 📊 Data & ML Tools
-
+### Data Science & Analysis
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white)
 
-### ⚙️ Tools & Infrastructure
-
+### Development & Deployment
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![VS_Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 
 ---
 
-## Development Workflow
+## 🧬 Perception Pipeline Architecture
 
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                                                  ┃
-┃    Perception  ──→  Processing  ──→  Action    ┃
-┃                                                  ┃
-┃  📹 Vision Pipeline      🧠 ML Inference       ┃
-┃  🔄 Sensor Fusion        📍 Path Planning      ┃
-┃  🎯 Feature Extraction   🤖 Motion Control    ┃
-┃                                                  ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+                    ╔═══════════════════════════╗
+                    ║   SENSOR INPUT LAYER      ║
+                    ║  (Camera, LiDAR, Radar)   ║
+                    ╚═══════════════╤═══════════╝
+                                    │
+                    ┌───────────────┴───────────────┐
+                    │                               │
+        ╔═══════════▼═══════════╗    ╔════════════▼════════════╗
+        ║  DATA PREPROCESSING   ║    ║   FEATURE EXTRACTION    ║
+        ║ • Normalization       ║    ║  • Corner detection     ║
+        ║ • Calibration         ║    ║  • Edge detection       ║
+        ║ • Synchronization     ║    ║  • Descriptor matching  ║
+        ╚═══════════╤═══════════╝    ╚════════════╤════════════╝
+                    │                               │
+                    └───────────────┬───────────────┘
+                                    │
+                    ╔═══════════════▼═══════════════╗
+                    ║   DEEP LEARNING INFERENCE    ║
+                    ║  (Object Detection/Tracking) ║
+                    ╚═══════════════╤═══════════════╝
+                                    │
+                    ┌───────────────┴───────────────┐
+                    │                               │
+        ╔═══════════▼═══════════╗    ╔════════════▼════════════╗
+        ║  SPATIAL REASONING    ║    ║  SENSOR FUSION          ║
+        ║ • 3D reconstruction   ║    ║  • Multi-modal fusion   ║
+        ║ • Depth estimation    ║    ║  • Kalman filtering     ║
+        ║ • Localization        ║    ║  • Uncertainty handling ║
+        ╚═══════════╤═══════════╝    ╚════════════╤════════════╝
+                    │                               │
+                    └───────────────┬───────────────┘
+                                    │
+                    ╔═══════════════▼═══════════════╗
+                    ║   DECISION & ACTION LAYER    ║
+                    ║  (Control, Planning, Exec)   ║
+                    ╚═══════════════════════════════╝
 ```
 
 ---
 
-## Currently Exploring
+## 📈 Development Methodology
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- ► Real-time Object Detection & Multi-Object Tracking
- ► Advanced ROS 2 Perception Pipelines & Node Architecture  
- ► Vision-Based SLAM & Autonomous Navigation Systems
- ► Transfer Learning for Edge Device Vision Models
- ► Sensor Fusion with Kalman Filters & Particle Filters
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESEARCH CYCLE
+├─ Literature Review & Analysis
+│  └─ State-of-the-art methods
+│  └─ Benchmarks & datasets
+│
+├─ Algorithm Design & Implementation
+│  └─ Prototyping & validation
+│  └─ Performance profiling
+│
+├─ Experimental Evaluation
+│  └─ Real-world testing
+│  └─ Benchmark comparison
+│
+├─ Optimization & Deployment
+│  └─ Code optimization
+│  └─ Edge device adaptation
+│
+└─ Documentation & Knowledge Transfer
+   └─ Technical reports
+   └─ Open-source contribution
 ```
 
 ---
 
-## Featured Projects
+## 📚 Education & Background
+
+```
+B.Tech in Artificial Intelligence & Data Science
+Dwarkadas J. Sanghvi College of Engineering (DJSCE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CGPA: 9.55/10.0
+Relevant Coursework:
+  ▸ Computer Vision & Image Processing
+  ▸ Machine Learning & Deep Learning
+  ▸ Robotics & Autonomous Systems
+  ▸ Signal Processing
+  ▸ Data Structures & Algorithms
+  ▸ Embedded Systems Programming
+```
+
+---
+
+## 🔬 Featured Projects & Work
 
 <table>
 <tr>
 <td width="50%">
 
-### Computer Vision Pipeline
-Building end-to-end vision systems for robotic perception with real-time performance optimization.
+### Real-time Vision System
+End-to-end computer vision pipeline for robotic perception with multi-threaded processing
 
-**Tech:** OpenCV • TensorFlow • Python • C++
+**Stack:** Python • OpenCV • PyTorch • C++
 
 </td>
 <td width="50%">
 
-### ROS 2 Navigation Stack
-Developing autonomous navigation frameworks with advanced path planning and collision avoidance.
+### ROS 2 Navigation Framework  
+Autonomous navigation with obstacle avoidance and dynamic path replanning
 
-**Tech:** ROS 2 • Gazebo • Python
+**Stack:** ROS 2 • Nav2 • Gazebo • C++
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Deep Learning Optimization
+Model compression and real-time inference on edge devices (Jetson, RPi)
+
+**Stack:** PyTorch • ONNX • TensorRT • Python
+
+</td>
+<td width="50%">
+
+### Sensor Fusion Module
+Multi-sensor integration with calibration and uncertainty estimation
+
+**Stack:** Python • Kalman Filters • NumPy • C++
 
 </td>
 </tr>
@@ -142,51 +236,35 @@ Developing autonomous navigation frameworks with advanced path planning and coll
 
 ---
 
-## Learning & Development Philosophy
+<div align="center">
 
-```
-┌────────────────────────────────────────────────┐
-│                                                │
-│     Research → Prototype → Test → Deploy      │
-│         ↓        ↓         ↓        ↓          │
-│     Learn   Build & Iterate  Ship  Monitor    │
-│                                                │
-│  Always seeking to bridge theory and practice │
-│  in real-world robotic systems.               │
-│                                                │
-└────────────────────────────────────────────────┘
-```
+## 📊 GitHub Statistics
+
+![Kimaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimiko-11&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kimiko-11&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff)
 
 ---
 
-## GitHub Stats
+## 🤝 Let's Collaborate
 
-<div align="center">
-
-![Kimayo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kimiko-11&show_icons=true&theme=radical&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kimiko-11&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
-## How to Reach Me
-
-<div align="center">
-
-I'm always interested in discussing robotics, computer vision, and autonomous systems.
+I'm actively seeking opportunities in:
+- **Research positions** in robotics and computer vision
+- **Internships** at robotics/AI companies
+- **Open-source collaboration** on perception systems
+- **Technical discussions** on autonomous systems
 
 📧 **Email:** hellokimaya@gmail.com  
 🔗 **GitHub:** [kimiko-11](https://github.com/kimiko-11)  
-💼 **Open to:** Collaborations • Research • Internships  
+💼 **Open to:** Research • Development • Collaboration
+
+---
 
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  Always Learning • Always Building       ┃
-┃  Always Curious About Intelligent       ┃
-┃  Machines & Embodied Intelligence       ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ╔════════════════════════════════════════════╗
+  ║  Building the future of robotic perception ║
+  ║  One pixel at a time.                      ║
+  ╚════════════════════════════════════════════╝
 ```
 
 </div>
