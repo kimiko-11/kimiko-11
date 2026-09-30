@@ -1,103 +1,76 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
-  <img alt="Banner: Kimaya Chavan — Robotics Perception Engineer in Training; animated LiDAR sweep, neon cyberpunk" src="assets/banner.svg" />
-</picture>
+<div align="center">
 
 # Kimaya Chavan
 
 ### Robotics Perception Engineer in Training
 
-<p>
-  <strong>One-line pitch:</strong> Building real-time perception systems at the intersection of computer vision, deep learning and ROS 2 — seeking internships in robotics perception and CV.
-</p>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Computer+Vision;Deep+Learning;ROS+2;Robot+Perception;Physical+AI)](https://github.com/kimiko-11)
 
 <p>
-  <!-- Links row -->
-  <a href="https://github.com/kimiko-11">GitHub</a> ·
-  <a href="mailto:hellokimaya@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/kimaya-chavan">LinkedIn</a> ·
-  <!-- TODO: add resume URL --> Resume
+  <a href="https://github.com/kimiko-11">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:hellokimaya@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/India-FF9933?style=flat&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/CGPA-9.55-2ea44f?style=flat" />
 </p>
 
 ---
 
-## Featured projects
+</div>
 
-> Quick: 30-second scan — three projects (placeholders). Do NOT invent details; replace the TODOs below.
+## About Me
 
-| Demo | Problem (one line) | Tech | Result |
-| ---: | --- | --- | --- |
-| ![Project 1 demo placeholder](assets/project1-demo.gif) <!-- TODO: add demo image (GIF/PNG) and alt text --> | <!-- TODO: one-line problem statement --> | <!-- TODO: e.g. Python, ROS2, OpenCV, PyTorch --> | <!-- TODO: measurable result (accuracy / latency / dataset size) --> |
-| ![Project 2 demo placeholder](assets/project2-demo.gif) <!-- TODO --> | <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
-| ![Project 3 demo placeholder](assets/project3-demo.gif) <!-- TODO --> | <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
+Final-year B.Tech student in **Artificial Intelligence & Data Science** at DJSCE, building toward robotics and perception engineering.
+
+I learn by building—from real-time vision systems to ROS 2 nodes. Passionate about bridging computer vision and robotics.
+
+**Currently exploring:** robot perception, deep learning for vision, autonomous systems, and embedded AI.
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/learning-pipeline.svg">
-  <img alt="Learning pipeline: Computer Vision → Deep Learning → ROS 2 → Robotics → Perception; animated signal flowing" src="assets/learning-pipeline.svg" />
-</picture>
+## Learning Direction
+
+```
+Computer Vision  →  Deep Learning  →  ROS 2  →  Robotics  →  Perception
+```
 
 ---
 
 ## Tech Stack
 
-_Lightweight neon badges — readable in dark and light mode._
+**Languages:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Embedded_C](https://img.shields.io/badge/Embedded_C-283593?style=flat-square&logo=arduino&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Languages**
+**Robotics & Vision:**  
+![ROS_2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
-Python · C++ · C · Embedded C · Java
-
-**Robotics & Vision**
-
-ROS 2 · OpenCV · NumPy · Pandas · scikit-learn
-
-**Tools & Hardware**
-
-Git · Ubuntu · VS Code · Arduino · ESP8266
-
----
-
-## Education
-
-- D.J. Sanghvi College of Engineering (DJSCE)
-- B.Tech — Artificial Intelligence & Data Science — Final year
-- CGPA: 9.55
-
-**Currently exploring:** robotics perception, LiDAR & sensor fusion, ROS 2 pipelines, and deployable embedded models.
+**Tools & Hardware:**  
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![VS_Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![ESP8266](https://img.shields.io/badge/ESP8266-000000?style=flat-square&logo=espressif&logoColor=white)
 
 ---
 
-## Live stats & activity
 
-<!-- Self-hosted SVGs generated by Actions into assets/ -->
-
-![Languages](assets/github-languages.svg) <!-- alt: language breakdown generated by workflow -->
-![Streak](assets/github-streak.svg) <!-- alt: self-hosted streak card -->
-![Commits](assets/github-commits.svg) <!-- alt: commits summary card -->
-
-![Contribution snake](output/github-contribution-snake.svg) <!-- alt: neon contribution snake generated by Platane/snk -->
-
-<!--START_ACTIVITY-->
-<!-- TODO: optional auto-updated activity block; replace with workflow output -->
-<!--END_ACTIVITY-->
 
 ---
 
-## Get in touch
+## Get in Touch
 
-- Email: [hellokimaya@gmail.com](mailto:hellokimaya@gmail.com)
-- GitHub: [kimiko-11](https://github.com/kimiko-11)
-- LinkedIn: [kimaya-chavan](https://www.linkedin.com/in/kimaya-chavan)
+📧 **Email:** [hellokimaya@gmail.com](mailto:hellokimaya@gmail.com)  
+🔗 **GitHub:** [kimiko-11](https://github.com/kimiko-11)
 
----
-
-## Maintenance & checklist
-
-- [ ] Add resume link
-- [ ] Replace project placeholders and demo images (assets/project*-demo.*)
-- [ ] Verify generated SVGs render well in GitHub dark and light themes
-- [ ] If you enable the activity workflow, add the required repo permissions and test the update
-- [ ] (Optional) Review and tune workflow schedules
-
-<!-- README produced/updated by repository assistant. -->
+</div>
