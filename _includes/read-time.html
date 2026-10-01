@@ -1,0 +1,9 @@
+{% capture words %}
+  {{ content | strip_html | number_of_words | minus: 180 }}
+{% endcapture %}
+{% assign readtime = words | divided_by: 180.0 | ceil %}
+{% if readtime <= 1 %}
+  1 min read
+{% else %}
+  {{ readtime }} min read
+{% endif %}

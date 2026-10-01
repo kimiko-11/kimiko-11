@@ -1,0 +1,20 @@
+{% include base_path %}
+
+{% if page.header.overlay_color %}
+  <div class="page__hero--overlay" style="background-color: {{ page.header.overlay_color | default: 'rgb(0, 0, 0)' }}; opacity: {{ page.header.overlay_filter_opacity | default: 0.5 }};">
+{% elsif page.header.overlay_image %}
+  <div class="page__hero--overlay" style="background-image: {% if page.header.overlay_image contains \"://\" %}url('{{ page.header.overlay_image }}'){% else %}url('{{ page.header.overlay_image | prepend: \"/images/\" | prepend: base_path }}'){% endif %}; background-size: cover; opacity: {{ page.header.overlay_filter_opacity | default: 0.5 }};">
+{% endif %}
+
+  {% if page.header.image %}
+    <img src="{% if page.header.image contains \"://\" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: \"/images/\" | prepend: base_path }}{% endif %}" alt="{{ page.title }}">
+  {% endif %}
+
+  {% if page.title %}
+    <div class="page__hero-image">
+      {% if page.header.cta_label and page.header.cta_url %}
+        <span><a href="{{ page.header.cta_url }}" class="btn btn--large btn--primary">{{ page.header.cta_label | default: \"Learn more\" }}</a></span>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

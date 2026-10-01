@@ -1,0 +1,31 @@
+{% include base_path %}
+
+{% if site.breadcrumbs %}
+  <nav class="breadcrumbs">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+      {% if page.url != "/" %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="{{ base_path }}/">
+            <span itemprop="name">{{ site.data.ui-text[site.locale].home_label | default: \"Home\" }}</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      {% endif %}
+      {% assign crumbs = page.url | split: '/' %}
+      {% for crumb in crumbs offset: 1 %}
+        {% if forloop.last %}
+          <li class="current">{{ page.title | default: crumb | replace: '-', ' ' | capitalize }}</li>
+        {% else if crumb != empty %}
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemprop="item" href="{{ base_path }}/{{ crumbs | join: '/' | remove: crumb }}">
+              <span itemprop="name">{{ crumb | replace: '-', ' ' | capitalize }}</span>
+            </a>
+            <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
+          </li>
+          <span class="sep">/</span>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+{% endif %}

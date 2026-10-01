@@ -1,0 +1,7 @@
+{% include base_path %}
+{% if site.tag_archive.type and page.tags[0] %}
+  {% include tag-list.html tags=page.tags taxonomy=site.data.ui-text[site.locale].tags_label %}
+{% endif %}
+{% if site.category_archive.type and page.categories[0] %}
+  {% include category-list.html categories=page.categories taxonomy=site.data.ui-text[site.locale].categories_label %}
+{% endif %}

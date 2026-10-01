@@ -1,0 +1,7 @@
+{% include base_path %}
+
+{% if site.comments.provider %}
+  <section id="comments" class="comments--wrapper">
+    {% include comments-providers/scripts.html %}
+  </section>
+{% endif %}

@@ -1,0 +1,9 @@
+{% include base_path %}
+
+{% if include.tags[0] != null %}
+  <span class="page__taxonomy-item-topic">{{ include.taxonomy }}
+    {% for tag in include.tags %}
+      <a href="{{ base_path }}/tags/#{{ tag | slugify }}" class="page__taxonomy-item p-category" rel="tag">{{ tag }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
+    {% endfor %}
+  </span>
+{% endif %}
