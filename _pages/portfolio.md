@@ -9,6 +9,4 @@ author_profile: true
 
 Portfolio of projects and implementations in Computer Vision, Robotics, and AI.
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+
