@@ -5,7 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+
 
 Portfolio of projects and implementations in Computer Vision, Robotics, and AI.
 
