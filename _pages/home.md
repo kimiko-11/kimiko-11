@@ -1,197 +1,302 @@
 ---
 permalink: /
 title: "Home"
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
 {% assign github_profile = site.author.github | default: "kimiko-11" %}
+{% assign linkedin_profile = site.author.linkedin %}
 
 <div class="kc-home">
-  <section class="kc-home__hero">
-    <p class="kc-home__eyebrow">Portfolio</p>
-    <h1>Kimaya Chavan</h1>
-    <p class="kc-home__subtitle">AI · Computer Vision · Robotics · Perception</p>
-    <p class="kc-home__intro">
-      I am an engineering student focused on intelligent systems and physical AI, with interests across computer vision, robotics, and perception-driven autonomy.
-    </p>
-    <div class="kc-home__actions">
-      <a class="kc-home__button" href="{{ '/portfolio/' | relative_url }}">Projects</a>
-      <a class="kc-home__button" href="{{ '/publications/' | relative_url }}">Research</a>
-      <a class="kc-home__button" href="{{ '/year-archive/' | relative_url }}">Lab Notes</a>
-      <a class="kc-home__button" href="{{ '/cv/' | relative_url }}">Resume</a>
-      <a class="kc-home__button" href="https://github.com/{{ github_profile }}">GitHub</a>
-    </div>
-  </section>
+  <aside class="kc-home__sidebar" aria-label="Profile">
+    <img class="kc-home__avatar" src="{{ '/images/profile.png' | relative_url }}" alt="Kimaya Chavan profile photo" />
+    <h1 class="kc-home__name">Kimaya Chavan</h1>
+    <p class="kc-home__focus">Physical AI · Computer Vision · Deep Learning · Robotics</p>
+    <p class="kc-home__bio">I build intelligent systems that combine perception, learning, and robotics to interact with the physical world.</p>
+    <p class="kc-home__bio kc-home__bio--secondary">My work spans computer vision, deep learning and robotics, with hands-on experience in embedded and connected systems.</p>
 
-  <section>
-    <h2>What I Build</h2>
-    <ul class="kc-home__pill-list">
-      <li>Computer Vision</li>
-      <li>Robotics &amp; ROS2</li>
-      <li>Deep Learning</li>
-      <li>Embedded / IoT Systems</li>
-      <li>Perception Systems</li>
-    </ul>
-  </section>
+    <nav class="kc-home__links" aria-label="Profile links">
+      <a href="https://github.com/{{ github_profile }}">GitHub</a>
+      {% if linkedin_profile %}
+      <a href="https://www.linkedin.com/in/{{ linkedin_profile }}">LinkedIn</a>
+      {% else %}
+      <span>LinkedIn</span>
+      {% endif %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ '/cv/' | relative_url }}">Resume</a>
+    </nav>
+  </aside>
 
-  <section>
-    <h2>Featured Projects</h2>
-    <div class="kc-home__cards">
-      <article class="kc-home__card">
-        <h3>Defense X-Ray Shell Detection &amp; Segmentation</h3>
-        <p>Detection and segmentation workflows for defense X-ray imagery in constrained operational settings.</p>
-      </article>
-      <article class="kc-home__card">
-        <h3>Connected IoT Vehicle</h3>
-        <p>Embedded sensing and cloud-connected telemetry for a remotely monitored and controlled vehicle platform.</p>
-      </article>
-      <article class="kc-home__card">
-        <h3>ROS2 Robotics</h3>
-        <p>Modular robotics experiments using ROS2 for control, coordination, and perception integration.</p>
-      </article>
-      <article class="kc-home__card">
-        <h3>Computer Vision Projects</h3>
-        <p>Applied vision work spanning detection, tracking, segmentation, and model deployment.</p>
-      </article>
-    </div>
-  </section>
+  <main class="kc-home__content">
+    <section class="kc-home__intro">
+      <p class="kc-home__intro-label">PERCEIVE → LEARN → ACT</p>
+      <h2>Building toward Physical AI</h2>
+      <p>I’m interested in how machines perceive the world, learn from data, and turn that understanding into physical action.</p>
+      <ul class="kc-home__tags" aria-label="Focus areas">
+        <li>PHYSICAL AI</li>
+        <li>COMPUTER VISION</li>
+        <li>DEEP LEARNING</li>
+        <li>ROBOTICS</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Research</h2>
-    <p>
-      My current research direction centers on confidence-aware perception and robustness under distribution shift, with a focus on reliable perception systems for real-world robotics.
-    </p>
-  </section>
+    <nav class="kc-home__tabs" aria-label="Sections">
+      <a href="{{ '/year-archive/' | relative_url }}">Notes</a>
+      <a class="is-active" href="{{ '/portfolio/' | relative_url }}" aria-current="page">Projects</a>
+      <a href="{{ '/publications/' | relative_url }}">Research</a>
+      <a href="{{ '/cv/' | relative_url }}">Resume</a>
+    </nav>
+
+    <section class="kc-home__projects" id="selected-projects">
+      <h3>Selected Projects</h3>
+
+      <article class="kc-home__project">
+        <p class="kc-home__project-number">01</p>
+        <h4>Defense X-Ray Shell Detection &amp; Segmentation</h4>
+        <p>A computer vision system for detecting, counting and segmenting shells in X-ray tray imagery for automated inspection.</p>
+        <p class="kc-home__meta">Python · OpenCV · CVAT · YOLO</p>
+        <p class="kc-home__position">Computer Vision · Perception · Physical AI</p>
+      </article>
+
+      <article class="kc-home__project">
+        <p class="kc-home__project-number">02</p>
+        <h4>Connected Vehicle</h4>
+        <p>An IoT vehicle combining physical sensors, ESP32/Raspberry Pi hardware and cloud communication.</p>
+        <p class="kc-home__detail">Architectures: (1) Raspberry Pi + ESP32 + Salesforce Platform Events; (2) ESP32 + MQTT + Salesforce.</p>
+        <p class="kc-home__meta">ESP32 · Raspberry Pi · MQTT · Salesforce</p>
+        <p class="kc-home__position">Robotics · Physical Systems · Embedded Systems</p>
+      </article>
+
+      <article class="kc-home__project">
+        <p class="kc-home__project-number">03</p>
+        <h4>ROS2 Robotics</h4>
+        <p>Hands-on work with ROS2 communication, publishers, subscribers, nodes and robotic system architecture.</p>
+        <p class="kc-home__meta">ROS2 Humble · Python · Linux</p>
+        <p class="kc-home__position">Robotics · Physical AI</p>
+      </article>
+
+      <article class="kc-home__project">
+        <p class="kc-home__project-number">04</p>
+        <h4>Computer Vision &amp; AI Experiments</h4>
+        <p>Experiments covering image processing, image representations, deep learning and computer vision.</p>
+        <p class="kc-home__meta">Python · NumPy · OpenCV · Deep Learning</p>
+        <p class="kc-home__position">Computer Vision · Deep Learning</p>
+      </article>
+    </section>
+  </main>
 </div>
 
 <style>
   .kc-home {
+    --kc-bg: #ffffff;
+    --kc-text: #1f2328;
+    --kc-muted: #656d76;
+    --kc-accent: #f26a21;
+    --kc-border: #d8dee4;
     margin-top: 0.5rem;
-    color: #dde5f3;
+    display: grid;
+    grid-template-columns: minmax(16rem, 28%) minmax(0, 72%);
+    gap: 2rem;
+    color: var(--kc-text);
+    background: var(--kc-bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 
-  .kc-home section {
-    margin: 0 0 3.2rem;
+  .kc-home__sidebar {
+    border: 1px solid var(--kc-border);
+    padding: 1rem;
+    background: #fff;
   }
 
-  .kc-home__hero {
-    padding: 1.25rem 1.5rem;
-    background: #0f1422;
-    border: 1px solid #202b45;
-    border-radius: 14px;
+  .kc-home__avatar {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    border: 1px solid var(--kc-border);
+    margin-bottom: 1rem;
   }
 
-  .kc-home__eyebrow {
+  .kc-home__name {
     margin: 0;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    font-size: 0.78rem;
-    color: #8fa3c4;
+    font-size: 1.55rem;
+    font-weight: 620;
+    color: var(--kc-text);
   }
 
-  .kc-home h1 {
-    margin: 0.5rem 0 0.45rem;
-    font-size: clamp(2rem, 4vw, 2.8rem);
-    line-height: 1.12;
-    color: #f6f9ff;
+  .kc-home__focus {
+    margin: 0.65rem 0 1rem;
+    color: var(--kc-muted);
+    line-height: 1.5;
   }
 
-  .kc-home__subtitle {
-    margin: 0;
-    color: #a9bcdc;
-    font-size: 1rem;
-    letter-spacing: 0.03em;
-  }
-
-  .kc-home__intro {
-    margin: 1.25rem 0 0;
-    max-width: 48rem;
-    color: #d5deed;
-    line-height: 1.75;
-  }
-
-  .kc-home__actions {
-    margin-top: 1.45rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-  }
-
-  .kc-home__button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.54rem 0.88rem;
-    border-radius: 999px;
-    border: 1px solid #314162;
-    background: #141c2f;
-    color: #e9efff !important;
-    text-decoration: none;
-    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-  }
-
-  .kc-home__button:hover,
-  .kc-home__button:focus {
-    transform: translateY(-1px);
-    border-color: #4d638b;
-    background: #1a2640;
-  }
-
-  .kc-home h2 {
+  .kc-home__bio {
     margin: 0 0 0.9rem;
-    color: #edf3ff;
-    font-size: 1.35rem;
+    color: var(--kc-text);
+    line-height: 1.6;
   }
 
-  .kc-home__pill-list {
+  .kc-home__bio--secondary {
+    color: var(--kc-muted);
+  }
+
+  .kc-home__links {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--kc-border);
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .kc-home__links a,
+  .kc-home__links span {
+    color: var(--kc-text);
+    text-decoration: none;
+    width: fit-content;
+  }
+
+  .kc-home__links a:hover,
+  .kc-home__links a:focus {
+    color: var(--kc-accent);
+  }
+
+  .kc-home__links span {
+    color: var(--kc-muted);
+  }
+
+  .kc-home__content {
+    min-width: 0;
+  }
+
+  .kc-home__intro-label {
     margin: 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    color: var(--kc-accent);
+    font-weight: 600;
+  }
+
+  .kc-home__intro h2 {
+    margin: 0.45rem 0 0.7rem;
+    font-size: 1.8rem;
+    font-weight: 620;
+    color: var(--kc-text);
+  }
+
+  .kc-home__intro p {
+    margin: 0;
+    color: var(--kc-muted);
+    line-height: 1.6;
+    max-width: 56ch;
+  }
+
+  .kc-home__tags {
+    margin: 1rem 0 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.65rem;
+    gap: 0.45rem;
   }
 
-  .kc-home__pill-list li {
-    border: 1px solid #2b3754;
-    background: #121a2d;
-    border-radius: 999px;
-    padding: 0.45rem 0.82rem;
-    color: #d9e4f8;
+  .kc-home__tags li {
+    border: 1px solid var(--kc-border);
+    padding: 0.22rem 0.5rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    color: var(--kc-muted);
   }
 
-  .kc-home__cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-    gap: 0.85rem;
+  .kc-home__tabs {
+    margin: 1.4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    border-bottom: 1px solid var(--kc-border);
+    padding-bottom: 0.35rem;
   }
 
-  .kc-home__card {
-    padding: 1rem;
-    border: 1px solid #25324f;
-    border-radius: 12px;
-    background: #11182a;
+  .kc-home__tabs a {
+    color: var(--kc-muted);
+    text-decoration: none;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
   }
 
-  .kc-home__card h3 {
-    margin: 0 0 0.4rem;
-    color: #eff4ff;
-    font-size: 1rem;
+  .kc-home__tabs a:hover,
+  .kc-home__tabs a:focus,
+  .kc-home__tabs a.is-active {
+    color: var(--kc-text);
+    border-bottom-color: var(--kc-accent);
   }
 
-  .kc-home__card p,
-  .kc-home section p {
+  .kc-home__projects h3 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    color: var(--kc-text);
+  }
+
+  .kc-home__project {
+    border-top: 1px solid var(--kc-border);
+    padding: 1rem 0;
+  }
+
+  .kc-home__project:last-child {
+    border-bottom: 1px solid var(--kc-border);
+  }
+
+  .kc-home__project-number {
     margin: 0;
-    color: #cdd7e8;
-    line-height: 1.7;
+    color: var(--kc-accent);
+    font-size: 0.73rem;
+    letter-spacing: 0.08em;
+    font-weight: 600;
   }
 
-  @media (max-width: 680px) {
-    .kc-home__hero {
-      padding: 1rem;
+  .kc-home__project h4 {
+    margin: 0.3rem 0 0.45rem;
+    font-size: 1.08rem;
+    color: var(--kc-text);
+  }
+
+  .kc-home__project p {
+    margin: 0;
+    color: var(--kc-muted);
+    line-height: 1.6;
+  }
+
+  .kc-home__detail {
+    margin-top: 0.45rem !important;
+  }
+
+  .kc-home__meta,
+  .kc-home__position {
+    margin-top: 0.4rem !important;
+    font-size: 0.86rem;
+  }
+
+  .kc-home__meta {
+    color: var(--kc-text) !important;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  @media (max-width: 980px) {
+    .kc-home {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .kc-home__avatar {
+      max-width: 150px;
+    }
+
+    .kc-home__tabs {
+      gap: 1rem;
+      overflow-x: auto;
     }
   }
 </style>
