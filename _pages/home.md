@@ -11,24 +11,33 @@ redirect_from:
 {% assign linkedin_profile = site.author.linkedin %}
 
 <div class="kc-home">
-  <aside class="kc-home__sidebar" aria-label="Profile">
-    <img class="kc-home__avatar" src="{{ '/images/profile.png' | relative_url }}" alt="Kimaya Chavan profile photo" />
-    <h1 class="kc-home__name">Kimaya Chavan</h1>
-    <p class="kc-home__focus">Physical AI · Computer Vision · Deep Learning · Robotics</p>
-    <p class="kc-home__bio">I build intelligent systems that combine perception, learning, and robotics to interact with the physical world.</p>
-    <p class="kc-home__bio kc-home__bio--secondary">My work spans computer vision, deep learning and robotics, with hands-on experience in embedded and connected systems.</p>
+  <header class="kc-home__hero">
+    <div class="kc-home__hero-inner">
+      <div class="kc-home__photo-wrap" aria-label="Kimaya Chavan profile photo placeholder">
+        <span class="kc-home__initials" aria-hidden="true">KC</span>
+        <img class="kc-home__photo" src="{{ '/images/profile.png' | relative_url }}" alt="Kimaya Chavan profile photo" onerror="this.style.display='none'" />
+        <!-- Replace the placeholder with the real photo later, keeping this path: {{ '/images/profile.png' | relative_url }} -->
+      </div>
 
-    <nav class="kc-home__links" aria-label="Profile links">
-      <a href="https://github.com/{{ github_profile }}">GitHub</a>
-      {% if linkedin_profile %}
-      <a href="https://www.linkedin.com/in/{{ linkedin_profile }}">LinkedIn</a>
-      {% else %}
-      <span>LinkedIn</span>
-      {% endif %}
-      <a href="mailto:{{ site.author.email }}">Email</a>
-      <a href="{{ '/cv/' | relative_url }}">Resume</a>
-    </nav>
-  </aside>
+      <div class="kc-home__profile">
+        <h1>Kimaya Chavan</h1>
+        <p class="kc-home__focus">Physical AI · Computer Vision · Deep Learning · Robotics</p>
+        <p class="kc-home__bio">I build intelligent systems that combine perception, learning, and robotics to interact with the physical world.</p>
+        <p class="kc-home__bio kc-home__bio--secondary">My work spans computer vision, deep learning and robotics, with hands-on experience in embedded and connected systems.</p>
+
+        <nav class="kc-home__links" aria-label="Profile links">
+          <a href="https://github.com/{{ github_profile }}">GitHub</a>
+          {% if linkedin_profile %}
+          <a href="https://www.linkedin.com/in/{{ linkedin_profile }}">LinkedIn</a>
+          {% else %}
+          <span>LinkedIn</span>
+          {% endif %}
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="{{ '/cv/' | relative_url }}">Resume</a>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   <main class="kc-home__content">
     <section class="kc-home__intro">
@@ -95,136 +104,177 @@ redirect_from:
     --kc-text: #1f2328;
     --kc-muted: #656d76;
     --kc-accent: #f26a21;
+    --kc-dark-orange: #d9561a;
     --kc-border: #d8dee4;
     margin-top: 0.5rem;
-    display: grid;
-    grid-template-columns: minmax(16rem, 28%) minmax(0, 72%);
-    gap: 2rem;
     color: var(--kc-text);
     background: var(--kc-bg);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 
-  .kc-home__sidebar {
-    border: 1px solid var(--kc-border);
-    padding: 1rem;
-    background: #fff;
+  .kc-home__hero {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+    padding: 2.75rem 1.5rem;
+    background: var(--kc-accent);
+    color: #ffffff;
   }
 
-  .kc-home__avatar {
-    display: block;
+  .kc-home__hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .kc-home__photo-wrap {
+    position: relative;
+    flex: 0 0 200px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    background: var(--kc-dark-orange);
+    display: grid;
+    place-items: center;
+  }
+
+  .kc-home__initials {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  .kc-home__photo {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    max-width: 190px;
-    height: auto;
-    border: 1px solid var(--kc-border);
-    margin-bottom: 1rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
   }
 
-  .kc-home__name {
+  .kc-home__profile {
+    min-width: 0;
+  }
+
+  .kc-home__profile h1 {
     margin: 0;
-    font-size: 1.55rem;
-    font-weight: 620;
-    color: var(--kc-text);
+    color: #ffffff;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    font-weight: 650;
   }
 
   .kc-home__focus {
-    margin: 0.65rem 0 1rem;
-    color: var(--kc-muted);
+    margin: 0.55rem 0 1.1rem;
+    color: #ffffff;
+    font-size: 1rem;
     line-height: 1.5;
   }
 
   .kc-home__bio {
-    margin: 0 0 0.9rem;
-    color: var(--kc-text);
+    max-width: 70ch;
+    margin: 0 0 0.7rem;
+    color: #ffffff;
+    font-size: 1rem;
     line-height: 1.6;
   }
 
   .kc-home__bio--secondary {
-    color: var(--kc-muted);
+    margin-bottom: 0;
+    color: #fff4ed;
   }
 
   .kc-home__links {
-    margin-top: 1.2rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--kc-border);
-    display: grid;
-    gap: 0.5rem;
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
   }
 
   .kc-home__links a,
   .kc-home__links span {
-    color: var(--kc-text);
+    color: #ffffff;
+    font-size: 0.95rem;
     text-decoration: none;
-    width: fit-content;
   }
 
   .kc-home__links a:hover,
   .kc-home__links a:focus {
-    color: var(--kc-accent);
+    text-decoration: underline;
   }
 
   .kc-home__links span {
-    color: var(--kc-muted);
+    opacity: 0.78;
   }
 
   .kc-home__content {
-    min-width: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+    box-sizing: border-box;
   }
 
   .kc-home__intro-label {
     margin: 0;
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
     color: var(--kc-accent);
-    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    font-weight: 650;
   }
 
   .kc-home__intro h2 {
-    margin: 0.45rem 0 0.7rem;
-    font-size: 1.8rem;
-    font-weight: 620;
+    margin: 0.55rem 0 0.75rem;
     color: var(--kc-text);
+    font-size: 2.1rem;
+    line-height: 1.2;
+    font-weight: 650;
   }
 
-  .kc-home__intro p {
+  .kc-home__intro > p:not(.kc-home__intro-label) {
+    max-width: 68ch;
     margin: 0;
     color: var(--kc-muted);
-    line-height: 1.6;
-    max-width: 56ch;
+    font-size: 1rem;
+    line-height: 1.65;
   }
 
   .kc-home__tags {
-    margin: 1rem 0 0;
-    padding: 0;
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.45rem;
+    gap: 0.5rem;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    list-style: none;
   }
 
   .kc-home__tags li {
-    border: 1px solid var(--kc-border);
-    padding: 0.22rem 0.5rem;
-    font-size: 0.74rem;
-    letter-spacing: 0.06em;
+    padding: 0.3rem 0.55rem;
+    border: 1px solid var(--kc-accent);
     color: var(--kc-muted);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
   }
 
   .kc-home__tabs {
-    margin: 1.4rem 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 1.35rem;
+    margin: 2rem 0 2.4rem;
     border-bottom: 1px solid var(--kc-border);
-    padding-bottom: 0.35rem;
   }
 
   .kc-home__tabs a {
-    color: var(--kc-muted);
-    text-decoration: none;
-    padding-bottom: 0.45rem;
+    padding-bottom: 0.55rem;
     border-bottom: 2px solid transparent;
-    font-weight: 500;
+    color: var(--kc-muted);
+    font-size: 0.9rem;
+    text-decoration: none;
   }
 
   .kc-home__tabs a:hover,
@@ -235,38 +285,52 @@ redirect_from:
   }
 
   .kc-home__projects h3 {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+    margin: 0 0 1.35rem;
     color: var(--kc-text);
+    font-size: 1.45rem;
+    line-height: 1.25;
+    font-weight: 650;
+  }
+
+  .kc-home__projects h3::after {
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-top: 0.7rem;
+    background: var(--kc-accent);
+    content: "";
   }
 
   .kc-home__project {
+    padding: 1.25rem 0;
     border-top: 1px solid var(--kc-border);
-    padding: 1rem 0;
   }
 
   .kc-home__project:last-child {
     border-bottom: 1px solid var(--kc-border);
   }
 
-  .kc-home__project-number {
+  .kc-home__project .kc-home__project-number {
     margin: 0;
     color: var(--kc-accent);
-    font-size: 0.73rem;
+    font-size: 0.85rem;
     letter-spacing: 0.08em;
-    font-weight: 600;
+    font-weight: 650;
   }
 
   .kc-home__project h4 {
-    margin: 0.3rem 0 0.45rem;
-    font-size: 1.08rem;
+    margin: 0.35rem 0 0.5rem;
     color: var(--kc-text);
+    font-size: 1.15rem;
+    line-height: 1.35;
+    font-weight: 650;
   }
 
   .kc-home__project p {
     margin: 0;
     color: var(--kc-muted);
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.65;
   }
 
   .kc-home__detail {
@@ -275,8 +339,8 @@ redirect_from:
 
   .kc-home__meta,
   .kc-home__position {
-    margin-top: 0.4rem !important;
-    font-size: 0.86rem;
+    margin-top: 0.45rem !important;
+    font-size: 0.85rem !important;
   }
 
   .kc-home__meta {
@@ -284,19 +348,29 @@ redirect_from:
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  @media (max-width: 980px) {
-    .kc-home {
-      grid-template-columns: 1fr;
+  @media (max-width: 759px) {
+    .kc-home__hero {
+      padding: 2.25rem 1.25rem;
+    }
+
+    .kc-home__hero-inner {
+      align-items: flex-start;
+      flex-direction: column;
       gap: 1.25rem;
     }
 
-    .kc-home__avatar {
-      max-width: 150px;
+    .kc-home__photo-wrap {
+      flex-basis: 160px;
+      width: 160px;
+      height: 160px;
     }
 
-    .kc-home__tabs {
-      gap: 1rem;
-      overflow-x: auto;
+    .kc-home__content {
+      padding: 2.25rem 1.25rem 3rem;
+    }
+
+    .kc-home__intro h2 {
+      font-size: 1.85rem;
     }
   }
 </style>
