@@ -5,8 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Research
 
+### Confidence-Aware Perception Under Distribution Shift
+Exploring how perception systems can estimate when their predictions become unreliable when the data they encounter differs from their training environment.
 
-Research papers, publications, and studies.
-
-
+Current focus areas: Computer Vision · Deep Learning · Perception · Robustness · Physical AI.

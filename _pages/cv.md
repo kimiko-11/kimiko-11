@@ -5,30 +5,26 @@ permalink: /cv/
 author_profile: true
 ---
 
-# Curriculum Vitae
-
-Kimaya Chavan
+# Resume
 
 ## Education
-
-*Placeholder - Add your education details*
+Final-year engineering student building toward a career in Physical AI, perception, computer vision, deep learning, and robotics.
 
 ## Experience
-
-*Placeholder - Add your professional experience*
-
-## Skills
-
-*Placeholder - Add your technical skills*
+Hands-on academic and project work across perception systems, robotics workflows, and connected embedded platforms.
 
 ## Projects
+- Defense X-Ray Shell Detection & Segmentation
+- Connected Vehicle (Raspberry Pi/ESP32 and MQTT-based architectures)
+- ROS2 Robotics
+- Computer Vision & AI Experiments
 
-*Placeholder - Add notable projects*
+## Technical Skills
+Python · OpenCV · NumPy · Deep Learning · ROS2 · Linux · ESP32 · Raspberry Pi · MQTT · CVAT · Salesforce
 
-## Publications
+## Research Interests
+Physical AI systems that can perceive, learn, and act reliably in real-world environments.
 
-*Placeholder - Add publications and research*
-
----
-
-*Content coming soon.*
+## View / Download Resume
+- [View Resume]({{ '/cv/' | relative_url }})
+- Download Resume (PDF): available on request via [email](mailto:{{ site.author.email }})
