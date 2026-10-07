@@ -11,7 +11,7 @@ title_separator          : "-"
 name                     : &name "Kimaya Chavan"
 description              : &description "Kimaya Chavan - AI, Computer Vision & Robotics Portfolio"
 url                      : https://kimiko-11.github.io
-baseurl                  : ""
+baseurl                  : "/kimiko-11"
 repository               : "kimiko-11/kimiko-11"
 
 # Site Author
