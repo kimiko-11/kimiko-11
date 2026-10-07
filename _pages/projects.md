@@ -44,31 +44,61 @@ redirect_from:
 <h2>Computer Vision &amp; AI</h2>
 <div class="kc-list">
 <article class="kc-item">
-      <h3>Real-Time Object Detection & Tracking</h3>
+        <h3>
+        <a href="https://github.com/kimiko-11/real-time-object-detection-tracking"
+           target="_blank"
+           rel="noopener noreferrer">
+          Real-Time Object Detection & Tracking
+        </a>
+      </h3>
       <p>A real-time perception pipeline that detects and tracks multiple objects across video frames, maintaining persistent identities while visualizing trajectories and estimating short-term motion from observed velocity.</p>
       <p class="kc-item__stack">Python · YOLOv8 · OpenCV · NumPy</p>
       <p class="kc-item__stack">Object Detection · Multi-Object Tracking · Motion Analysis · Robotics Perception</p>
 </article>
 <article class="kc-item">
-      <h3>OCR-Based Document Understanding</h3>
+      <h3>
+        <a href="https://github.com/kimiko-11/OCR-Based-Document-Understanding-System"
+           target="_blank"
+           rel="noopener noreferrer">
+          OCR-Based Document Understanding
+        </a>
+      </h3>
       <p>An end-to-end document vision pipeline that converts receipt images into structured information through image preprocessing, Tesseract OCR, word-level localization and key-field extraction for company names, dates and totals.</p>
       <p class="kc-item__stack">Python · OpenCV · Tesseract OCR · NumPy · Matplotlib</p>
       <p class="kc-item__stack">Document AI · OCR · Computer Vision · Information Extraction</p>
 </article>
 <article class="kc-item">
-      <h3>Depth-Aware Object Perception</h3>
+        <h3>
+        <a href="https://github.com/kimiko-11/Monocular-depth-object-perception"
+           target="_blank"
+           rel="noopener noreferrer">
+          Depth-Aware Object Perception
+        </a>
+      </h3>
       <p>A real-time robotics perception pipeline combining YOLOv8 object detection with MiDaS monocular depth estimation to infer the relative distance of detected objects from a single RGB camera. The system generates depth visualizations and a bird's-eye obstacle map for spatial awareness.</p>
       <p class="kc-item__stack">Python · YOLOv8 · MiDaS · OpenCV</p>
       <p class="kc-item__stack">3D Perception · Object Detection · Depth Estimation · Robotics</p>
 </article>
 <article class="kc-item">
-      <h3>R-CNN Aircraft Detection</h3>
+      <h3>
+        <a href="https://github.com/kimiko-11/R-CNN-Aircraft-Detection-Selective-Search-VGG16"
+           target="_blank"
+           rel="noopener noreferrer">
+          R-CNN Aircraft Detection
+        </a>
+      </h3>
       <p>An implementation of the original region-based object detection approach using Selective Search for region proposals and pretrained VGG16 features for aircraft classification. The project explores the foundations of two-stage object detection before modern end-to-end detectors.</p>
       <p class="kc-item__stack">Python · VGG16 · Selective Search · OpenCV</p>
       <p class="kc-item__stack">Object Detection · CNNs · Region Proposals · Deep Learning</p>
   </article>
   <article class="kc-item">
-      <h3>Vision-Controlled Dino Game</h3>
+      <h3>
+        <a href="https://github.com/kimiko-11/HCI_Dino_game"
+           target="_blank"
+           rel="noopener noreferrer">
+          Vision-Controlled Dino Game
+        </a>
+      </h3>
       <p>A real-time human-computer interaction system that uses webcam-based hand tracking to control the Chrome Dino game without a keyboard. Hand landmarks are interpreted to distinguish an open hand from a closed fist and trigger the corresponding game action.</p>
       <p class="kc-item__stack">Python · OpenCV · MediaPipe · PyAutoGUI</p>
       <p class="kc-item__stack">Hand Tracking · HCI · Gesture Recognition · Real-Time Vision</p>
