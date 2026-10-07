@@ -128,8 +128,8 @@ redirect_from:
 <p class="kc-item__stack">Physical Computing · Interactive Systems · Embedded Systems · Sensor Interfacing</p>
 </article>
 <article class="kc-item">
-<h3>Interactive Target Shooter</h3>
-<p>A real-time target-shooting game developed for a national-level 24-hour hackathon organised by DJS-ACM, combining IR/laser-based hit detection, target sensing, a live hit counter and countdown timer. As Head of the Technical Committee, I led the technical development and hardware integration with the team.</p>
+<h3>Laser Target Shooter</h3>
+<p>A real-time target-shooting game developed for a national-level hackathon organised by DJS-ACM, combining IR/laser-based hit detection, target sensing, a live hit counter and countdown timer along with a custom made laser gun. As Head of the Technical Committee, I led the technical development and hardware integration with the team.</p>
 <p class="kc-item__stack">Arduino · IR Sensors · Laser Emitter · Embedded C/C++ · Hardware Integration</p>
 <p class="kc-item__stack">Embedded Systems · Interactive Hardware · Real-Time Systems · Technical Leadership</p>
 </article>
@@ -147,11 +147,28 @@ redirect_from:
 <p class="kc-item__stack">Embedded Systems · Sensor Interfacing · Instrumentation · Hardware</p>
 </article>
 <article class="kc-item">
-<h3><a href="https://github.com/kimiko-11/AeroSense" target="_blank">AeroSense</a></h3>
-<p>Autonomous Obstacle-Avoiding Robot with Environmental Monitoring</p>
-</article>
-</div>
-</section>
+  <h3>
+    <a href="https://github.com/kimiko-11/AeroSense"
+       target="_blank"
+       rel="noopener noreferrer">
+      AeroSense
+    </a>
+  </h3>
 
-</div>
-</div>
+  <p>
+    An autonomous mobile robot designed to navigate its environment while
+    detecting obstacles and monitoring surrounding environmental conditions.
+    The system integrates distance sensing, environmental sensors and
+    microcontroller-based control to enable autonomous movement and
+    real-time environmental awareness.
+  </p>
+
+  <p class="kc-item__stack">
+    Arduino · Ultrasonic Sensors · Environmental Sensors · Embedded C/C++
+  </p>
+
+  <p class="kc-item__stack">
+    Autonomous Robotics · Obstacle Avoidance · Environmental Monitoring ·
+    Embedded Systems
+  </p>
+</article>
