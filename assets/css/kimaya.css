@@ -5,6 +5,7 @@
   --kc-peach: #fff7f1;
   --kc-orange-light: #ffebdd;
   --kc-orange: #e8752a;
+  --kc-orange-deep: #b04c12; /* small text on peach backgrounds */
   --kc-orange-dark: #c9591a; /* darker than the brand orange so small text passes contrast on white */
 
   --kc-text: #242424;
@@ -462,7 +463,7 @@ img { max-width: 100%; }
 
 .kc-tags li {
   padding: 5px 12px;
-  color: var(--kc-orange-dark);
+  color: var(--kc-orange-deep);
   background: var(--kc-peach);
   border: 1px solid var(--kc-orange-light);
   border-radius: 999px;
@@ -578,4 +579,105 @@ img { max-width: 100%; }
   }
 
   .kc-home__about { margin-top: 42px; }
+}
+
+
+/* =========================
+   PROJECTS PAGE (scoped)
+   ========================= */
+
+.kc-page--projects .kc-page__header::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 5px;
+  margin-top: 28px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--kc-orange), #f4a261);
+}
+
+.kc-page--projects .kc-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.kc-page--projects .kc-section h2::before {
+  content: "";
+  flex: none;
+  width: 6px;
+  height: 30px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--kc-orange), #f4a261);
+}
+
+.kc-page--projects .kc-list {
+  display: grid;
+  gap: 16px;
+  border-top: 0;
+}
+
+.kc-page--projects .kc-item {
+  padding: 26px 28px;
+  background: linear-gradient(135deg, var(--kc-peach) 0%, #ffffff 72%);
+  border: 1px solid var(--kc-orange-light);
+  border-left: 4px solid var(--kc-orange);
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(232, 117, 42, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kc-page--projects .kc-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(232, 117, 42, 0.15);
+}
+
+.kc-page--projects .kc-item h3 {
+  color: var(--kc-orange-dark);
+  font-size: 1.3rem;
+}
+
+.kc-page--projects .kc-item h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.kc-page--projects .kc-item h3 a::after {
+  content: " \2197";
+  font-size: 0.8em;
+}
+
+.kc-page--projects .kc-item h3 a:hover,
+.kc-page--projects .kc-item h3 a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* first stack line = tools used, shown as an orange chip */
+.kc-page--projects .kc-item__stack {
+  display: inline-block;
+  margin-top: 14px !important;
+  padding: 6px 12px;
+  color: var(--kc-orange-deep) !important;
+  background: #ffffff;
+  border: 1px solid var(--kc-orange-light);
+  border-radius: 8px;
+  font-size: 0.84rem !important;
+  font-weight: 600;
+}
+
+/* second stack line = focus areas, quieter text */
+.kc-page--projects .kc-item__stack + .kc-item__stack {
+  display: block;
+  margin-top: 10px !important;
+  padding: 0;
+  color: var(--kc-muted) !important;
+  background: none;
+  border: 0;
+  font-size: 0.82rem !important;
+  font-weight: 500;
+}
+
+@media (max-width: 560px) {
+  .kc-page--projects .kc-item { padding: 20px; }
 }

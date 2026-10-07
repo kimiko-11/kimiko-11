@@ -7,7 +7,7 @@ redirect_from:
   - /portfolio/
 ---
 
-<div class="kc-page">
+<div class="kc-page kc-page--projects">
 <div class="kc-container">
 
 <header class="kc-page__header">
@@ -140,7 +140,6 @@ redirect_from:
 <h2>IoT &amp; Connected Systems</h2>
 <div class="kc-list">
 <article class="kc-item">
-<article class="kc-item">
 <h3>Digital Weighing Scale</h3>
 <p>A compact digital weighing system built using an Arduino Uno, load cell and HX711 amplifier, with real-time weight measurement displayed on an LCD. The system involved sensor interfacing, signal amplification, calibration against a known reference weight and embedded measurement processing.</p>
 <p class="kc-item__stack">Arduino Uno · Load Cell · HX711 · LCD · Embedded C/C++</p>
@@ -172,3 +171,8 @@ redirect_from:
     Embedded Systems
   </p>
 </article>
+</div>
+</section>
+
+</div>
+</div>
