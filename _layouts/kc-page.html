@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- assign kc_title = site.title -%}
+  {%- if page.title and page.url != '/' -%}
+    {%- assign kc_title = page.title | append: ' · ' | append: site.title -%}
+  {%- endif -%}
+  {%- assign kc_desc = page.description | default: site.description -%}
+
+  <title>{{ kc_title }}</title>
+  <meta name="description" content="{{ kc_desc }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ kc_title }}">
+  <meta property="og:description" content="{{ kc_desc }}">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/images/profile.png' | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/kimaya.css' | relative_url }}">
+</head>
+<body>
+
+<a class="kc-skip" href="#main">Skip to content</a>
+
+<header class="kc-nav">
+  <div class="kc-nav__inner">
+
+    <a class="kc-nav__brand" href="{{ '/' | relative_url }}">Kimaya Chavan</a>
+
+    <nav class="kc-nav__links" aria-label="Main navigation">
+      {%- for item in site.data.navigation.main -%}
+        {%- assign is_here = false -%}
+        {%- if page.url == item.url -%}{%- assign is_here = true -%}{%- endif -%}
+        <a href="{{ item.url | relative_url }}"{% if is_here %} class="is-active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {%- endfor -%}
+    </nav>
+
+  </div>
+</header>
+
+<main id="main">
+  {{ content }}
+</main>
+
+<footer class="kc-footer">
+  <div class="kc-container kc-footer__inner">
+    <p>© {{ 'now' | date: "%Y" }} Kimaya Chavan</p>
+    <p>
+      <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/kimaya-chavan" rel="me">LinkedIn</a> ·
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

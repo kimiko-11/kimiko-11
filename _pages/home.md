@@ -1,376 +1,110 @@
 ---
+layout: kc-page
 permalink: /
-title: "Home"
+title: "Kimaya Chavan"
+description: "Kimaya Chavan — AI & Perception Engineer. Computer vision, deep learning, robotics and physical AI."
 author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-{% assign github_profile = site.author.github | default: "kimiko-11" %}
-{% assign linkedin_profile = site.author.linkedin %}
+<section class="kc-home">
+<div class="kc-home__inner">
 
-<div class="kc-home">
-  <header class="kc-home__hero">
-    <div class="kc-home__hero-inner">
-      <div class="kc-home__photo-wrap" aria-label="Kimaya Chavan profile photo placeholder">
-        <span class="kc-home__initials" aria-hidden="true">KC</span>
-        <img class="kc-home__photo" src="{{ '/images/profile.png' | relative_url }}" alt="Kimaya Chavan profile photo" onerror="this.style.display='none'" />
-        <!-- Replace the placeholder with the real photo later, keeping this path: {{ '/images/profile.png' | relative_url }} -->
-      </div>
-
-      <div class="kc-home__profile">
-        <h1>Kimaya Chavan</h1>
-        <p class="kc-home__focus">Physical AI · Computer Vision · Deep Learning · Robotics</p>
-        <p class="kc-home__bio">I build intelligent systems that combine perception, learning, and robotics to interact with the physical world.</p>
-        <p class="kc-home__bio kc-home__bio--secondary">My work spans computer vision, deep learning and robotics, with hands-on experience in embedded and connected systems.</p>
-
-        <nav class="kc-home__links" aria-label="Profile links">
-          <a href="https://github.com/{{ github_profile }}">GitHub</a>
-          {% if linkedin_profile %}
-          <a href="https://www.linkedin.com/in/{{ linkedin_profile }}">LinkedIn</a>
-          {% else %}
-          <span>LinkedIn</span>
-          {% endif %}
-          <a href="mailto:{{ site.author.email }}">Email</a>
-          <a href="{{ '/cv/' | relative_url }}">Resume</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main class="kc-home__content">
-    <section class="kc-home__intro">
-      <p class="kc-home__intro-label">PERCEIVE → LEARN → ACT</p>
-      <h2>Building toward Physical AI</h2>
-      <p>I’m interested in how machines perceive the world, learn from data, and turn that understanding into physical action.</p>
-      <ul class="kc-home__tags" aria-label="Focus areas">
-        <li>PHYSICAL AI</li>
-        <li>COMPUTER VISION</li>
-        <li>DEEP LEARNING</li>
-        <li>ROBOTICS</li>
-      </ul>
-    </section>
-
-    <nav class="kc-home__tabs" aria-label="Sections">
-      <a href="{{ '/year-archive/' | relative_url }}">Notes</a>
-      <a class="is-active" href="{{ '/portfolio/' | relative_url }}" aria-current="page">Projects</a>
-      <a href="{{ '/publications/' | relative_url }}">Research</a>
-      <a href="{{ '/cv/' | relative_url }}">Resume</a>
-    </nav>
-
-    <section class="kc-home__projects" id="selected-projects">
-      <h3>Selected Projects</h3>
-
-      <article class="kc-home__project">
-        <p class="kc-home__project-number">01</p>
-        <h4>Defense X-Ray Shell Detection &amp; Segmentation</h4>
-        <p>A computer vision system for detecting, counting and segmenting shells in X-ray tray imagery for automated inspection.</p>
-        <p class="kc-home__meta">Python · OpenCV · CVAT · YOLO</p>
-        <p class="kc-home__position">Computer Vision · Perception · Physical AI</p>
-      </article>
-
-      <article class="kc-home__project">
-        <p class="kc-home__project-number">02</p>
-        <h4>Connected Vehicle</h4>
-        <p>An IoT vehicle combining physical sensors, ESP32/Raspberry Pi hardware and cloud communication.</p>
-        <p class="kc-home__detail">Architectures: (1) Raspberry Pi + ESP32 + Salesforce Platform Events; (2) ESP32 + MQTT + Salesforce.</p>
-        <p class="kc-home__meta">ESP32 · Raspberry Pi · MQTT · Salesforce</p>
-        <p class="kc-home__position">Robotics · Physical Systems · Embedded Systems</p>
-      </article>
-
-      <article class="kc-home__project">
-        <p class="kc-home__project-number">03</p>
-        <h4>ROS2 Robotics</h4>
-        <p>Hands-on work with ROS2 communication, publishers, subscribers, nodes and robotic system architecture.</p>
-        <p class="kc-home__meta">ROS2 Humble · Python · Linux</p>
-        <p class="kc-home__position">Robotics · Physical AI</p>
-      </article>
-
-      <article class="kc-home__project">
-        <p class="kc-home__project-number">04</p>
-        <h4>Computer Vision &amp; AI Experiments</h4>
-        <p>Experiments covering image processing, image representations, deep learning and computer vision.</p>
-        <p class="kc-home__meta">Python · NumPy · OpenCV · Deep Learning</p>
-        <p class="kc-home__position">Computer Vision · Deep Learning</p>
-      </article>
-    </section>
-  </main>
+<div class="kc-home__visual">
+<div class="kc-profile">
+<img class="kc-profile__photo" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Kimaya Chavan" width="640" height="640">
+<svg class="kc-profile__network" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<circle cx="16" cy="18" r="4" stroke="currentColor" stroke-width="2"/>
+<circle cx="48" cy="14" r="4" stroke="currentColor" stroke-width="2"/>
+<circle cx="42" cy="46" r="4" stroke="currentColor" stroke-width="2"/>
+<circle cx="18" cy="48" r="4" stroke="currentColor" stroke-width="2"/>
+<circle cx="32" cy="31" r="5" stroke="currentColor" stroke-width="2"/>
+<path d="M20 20L28 27M36 28L45 17M35 34L40 42M28 35L21 45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
+</div>
 </div>
 
-<style>
-  .kc-home {
-    --kc-bg: #ffffff;
-    --kc-text: #1f2328;
-    --kc-muted: #656d76;
-    --kc-accent: #f26a21;
-    --kc-dark-orange: #d9561a;
-    --kc-border: #d8dee4;
-    margin-top: 0.5rem;
-    color: var(--kc-text);
-    background: var(--kc-bg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  }
+<div class="kc-home__content">
 
-  .kc-home__hero {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    box-sizing: border-box;
-    padding: 2.75rem 1.5rem;
-    background: var(--kc-accent);
-    color: #ffffff;
-  }
+<p class="kc-home__eyebrow">AI · Computer Vision · Perception</p>
 
-  .kc-home__hero-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
+<h1>Kimaya<br>Chavan</h1>
 
-  .kc-home__photo-wrap {
-    position: relative;
-    flex: 0 0 200px;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border: 2px solid #ffffff;
-    border-radius: 6px;
-    background: var(--kc-dark-orange);
-    display: grid;
-    place-items: center;
-  }
+<p class="kc-home__title">AI &amp; Perception Engineer</p>
+<p class="kc-home__education">BTech — AI &amp; Data Science Engineering</p>
+<p class="kc-home__college">Dwarkadas J. Sanghvi College of Engineering</p>
 
-  .kc-home__initials {
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-  }
+<div class="kc-social" aria-label="Social links">
 
-  .kc-home__photo {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-  }
+<a class="kc-social__link" href="https://github.com/kimiko-11" aria-label="GitHub" target="_blank" rel="noopener me">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.85 10.91.57.1.78-.25.78-.55v-2.13c-3.19.69-3.86-1.54-3.86-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.21.65.79.54A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+</a>
 
-  .kc-home__profile {
-    min-width: 0;
-  }
+<a class="kc-social__link" href="https://www.linkedin.com/in/kimaya-chavan" aria-label="LinkedIn" target="_blank" rel="noopener me">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+</a>
 
-  .kc-home__profile h1 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 2.1rem;
-    line-height: 1.15;
-    font-weight: 650;
-  }
+<a class="kc-social__link" href="https://huggingface.co/TechnoFairy" aria-label="Hugging Face" target="_blank" rel="noopener me">HF</a>
 
-  .kc-home__focus {
-    margin: 0.55rem 0 1.1rem;
-    color: #ffffff;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
+<a class="kc-social__link" href="https://www.kaggle.com/kimi11" aria-label="Kaggle" target="_blank" rel="noopener me">K</a>
 
-  .kc-home__bio {
-    max-width: 70ch;
-    margin: 0 0 0.7rem;
-    color: #ffffff;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
+<a class="kc-social__link" href="mailto:{{ site.author.email }}" aria-label="Email">
+<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 7L12 13L20 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
 
-  .kc-home__bio--secondary {
-    margin-bottom: 0;
-    color: #fff4ed;
-  }
+</div>
 
-  .kc-home__links {
-    margin-top: 1.25rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 1.1rem;
-  }
+<div class="kc-home__about">
+<p class="kc-home__about-label">About Me</p>
+<p>I started from software and gradually found myself drawn toward electronics, intelligent systems and the question of how machines make sense of the physical world. That path led me toward AI, computer vision and, eventually, perception.</p>
+<p>These days, I’m learning and building around computer vision, deep learning, robotics and systems that connect software with the physical world — somewhere between pixels and perception.</p>
+<a class="kc-button" href="{{ '/resume/' | relative_url }}">View Resume</a>
+</div>
 
-  .kc-home__links a,
-  .kc-home__links span {
-    color: #ffffff;
-    font-size: 0.95rem;
-    text-decoration: none;
-  }
+</div>
+</div>
+</section>
 
-  .kc-home__links a:hover,
-  .kc-home__links a:focus {
-    text-decoration: underline;
-  }
+<section class="kc-selected">
+<div class="kc-container">
 
-  .kc-home__links span {
-    opacity: 0.78;
-  }
+<div class="kc-selected__head">
+<h2>Selected work</h2>
+<a href="{{ '/projects/' | relative_url }}">All projects →</a>
+</div>
 
-  .kc-home__content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem 4rem;
-    box-sizing: border-box;
-  }
+<div class="kc-grid">
 
-  .kc-home__intro-label {
-    margin: 0;
-    color: var(--kc-accent);
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    font-weight: 650;
-  }
+<article class="kc-card">
+<p class="kc-card__num">01</p>
+<h3>Defense X-Ray Shell Detection &amp; Segmentation</h3>
+<p>A computer vision system for detecting, counting and segmenting shells in X-ray tray imagery for automated inspection.</p>
+<ul class="kc-tags"><li>Python</li><li>OpenCV</li><li>CVAT</li><li>YOLO</li></ul>
+</article>
 
-  .kc-home__intro h2 {
-    margin: 0.55rem 0 0.75rem;
-    color: var(--kc-text);
-    font-size: 2.1rem;
-    line-height: 1.2;
-    font-weight: 650;
-  }
+<article class="kc-card">
+<p class="kc-card__num">02</p>
+<h3>Connected Vehicle</h3>
+<p>An IoT vehicle combining physical sensors, ESP32/Raspberry Pi hardware and cloud communication.</p>
+<ul class="kc-tags"><li>ESP32</li><li>Raspberry Pi</li><li>MQTT</li><li>Salesforce</li></ul>
+</article>
 
-  .kc-home__intro > p:not(.kc-home__intro-label) {
-    max-width: 68ch;
-    margin: 0;
-    color: var(--kc-muted);
-    font-size: 1rem;
-    line-height: 1.65;
-  }
+<article class="kc-card">
+<p class="kc-card__num">03</p>
+<h3>ROS2 Robotics</h3>
+<p>Hands-on work with ROS2 communication, publishers, subscribers, nodes and robotic system architecture.</p>
+<ul class="kc-tags"><li>ROS2 Humble</li><li>Python</li><li>Linux</li></ul>
+</article>
 
-  .kc-home__tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1.25rem 0 0;
-    padding: 0;
-    list-style: none;
-  }
+<article class="kc-card">
+<p class="kc-card__num">04</p>
+<h3>Computer Vision &amp; AI Experiments</h3>
+<p>Experiments covering image processing, image representations, deep learning and computer vision.</p>
+<ul class="kc-tags"><li>Python</li><li>NumPy</li><li>OpenCV</li><li>Deep Learning</li></ul>
+</article>
 
-  .kc-home__tags li {
-    padding: 0.3rem 0.55rem;
-    border: 1px solid var(--kc-accent);
-    color: var(--kc-muted);
-    font-size: 0.85rem;
-    letter-spacing: 0.06em;
-  }
-
-  .kc-home__tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.35rem;
-    margin: 2rem 0 2.4rem;
-    border-bottom: 1px solid var(--kc-border);
-  }
-
-  .kc-home__tabs a {
-    padding-bottom: 0.55rem;
-    border-bottom: 2px solid transparent;
-    color: var(--kc-muted);
-    font-size: 0.9rem;
-    text-decoration: none;
-  }
-
-  .kc-home__tabs a:hover,
-  .kc-home__tabs a:focus,
-  .kc-home__tabs a.is-active {
-    color: var(--kc-text);
-    border-bottom-color: var(--kc-accent);
-  }
-
-  .kc-home__projects h3 {
-    margin: 0 0 1.35rem;
-    color: var(--kc-text);
-    font-size: 1.45rem;
-    line-height: 1.25;
-    font-weight: 650;
-  }
-
-  .kc-home__projects h3::after {
-    display: block;
-    width: 48px;
-    height: 3px;
-    margin-top: 0.7rem;
-    background: var(--kc-accent);
-    content: "";
-  }
-
-  .kc-home__project {
-    padding: 1.25rem 0;
-    border-top: 1px solid var(--kc-border);
-  }
-
-  .kc-home__project:last-child {
-    border-bottom: 1px solid var(--kc-border);
-  }
-
-  .kc-home__project .kc-home__project-number {
-    margin: 0;
-    color: var(--kc-accent);
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    font-weight: 650;
-  }
-
-  .kc-home__project h4 {
-    margin: 0.35rem 0 0.5rem;
-    color: var(--kc-text);
-    font-size: 1.15rem;
-    line-height: 1.35;
-    font-weight: 650;
-  }
-
-  .kc-home__project p {
-    margin: 0;
-    color: var(--kc-muted);
-    font-size: 1rem;
-    line-height: 1.65;
-  }
-
-  .kc-home__detail {
-    margin-top: 0.45rem !important;
-  }
-
-  .kc-home__meta,
-  .kc-home__position {
-    margin-top: 0.45rem !important;
-    font-size: 0.85rem !important;
-  }
-
-  .kc-home__meta {
-    color: var(--kc-text) !important;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  @media (max-width: 759px) {
-    .kc-home__hero {
-      padding: 2.25rem 1.25rem;
-    }
-
-    .kc-home__hero-inner {
-      align-items: flex-start;
-      flex-direction: column;
-      gap: 1.25rem;
-    }
-
-    .kc-home__photo-wrap {
-      flex-basis: 160px;
-      width: 160px;
-      height: 160px;
-    }
-
-    .kc-home__content {
-      padding: 2.25rem 1.25rem 3rem;
-    }
-
-    .kc-home__intro h2 {
-      font-size: 1.85rem;
-    }
-  }
-</style>
+</div>
+</div>
+</section>

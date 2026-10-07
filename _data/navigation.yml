@@ -1,20 +1,22 @@
 # Navigation menu structure for the website
 #
-# This defines the main navigation links that appear in the header.
-# The order here determines the order in the navigation bar.
+# Rendered by _layouts/kc-page.html. The order here is the order in the header.
 
 main:
-  - title: "Home"
-    url: /
+  - title: "Experience"
+    url: /experience/
 
-  - title: "Projects"
-    url: /portfolio/
+  - title: "Bio"
+    url: /bio/
 
   - title: "Research"
-    url: /publications/
+    url: /research/
+
+  - title: "Projects"
+    url: /projects/
 
   - title: "Lab Notes"
-    url: /year-archive/
+    url: /lab-notes/
 
   - title: "Resume"
-    url: /cv/
+    url: /resume/
