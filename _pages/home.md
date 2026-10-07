@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="kc-home__visual">
 <div class="kc-profile">
-<img class="kc-profile__photo" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Kimaya Chavan" width="640" height="640">
+<img class="kc-profile__photo" src="{{ '/images/profile.png' | relative_url }}?v=2" alt="Portrait of Kimaya Chavan" width="640" height="640">
 <svg class="kc-profile__network" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 <circle cx="16" cy="18" r="4" stroke="currentColor" stroke-width="2"/>
 <circle cx="48" cy="14" r="4" stroke="currentColor" stroke-width="2"/>
