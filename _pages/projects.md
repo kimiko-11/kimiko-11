@@ -20,7 +20,7 @@ redirect_from:
 <h2>Industrial</h2>
 <div class="kc-list">
 <article class="kc-item">
-<img src="/assets/images/projects/xray-fuse-segmentation.svg" alt="Illustration of X-ray fuse defect segmentation" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/xray-fuse-segmentation.svg' | relative_url }}" alt="Illustration of X-ray fuse defect segmentation" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
 <h3>X-Ray Fuse Defect Segmentation</h3>
 <p>A computer vision system for detecting, counting and segmenting shells in X-ray tray imagery for automated inspection.</p>
 <p class="kc-item__stack">Python · OpenCV · CVAT · YOLO</p>
@@ -33,7 +33,7 @@ redirect_from:
 <p class="kc-item__stack">Autonomous Robotics · Industrial IoT · Embedded Systems · Cloud Integration</p>
 </article>
 <article class="kc-item">
-<img src="/assets/images/projects/cdet-shell-counting.svg" alt="Illustration of industrial shell counting with computer vision" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/cdet-shell-counting.svg' | relative_url }}" alt="Illustration of industrial shell counting with computer vision" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
 <h3>CDET Automated Shell Counting System</h3>
 <p>A computer-vision system developed for CDET Explosive Industries to automate the counting of blasting shells in industrial trays. The system uses dynamic tray localisation, circular-object detection, geometric filtering and multi-frame validation to produce reliable shell counts under real camera variation.</p>
 <p class="kc-item__stack">Python · OpenCV · NumPy · USB Camera · JSON Configuration</p>
@@ -46,7 +46,7 @@ redirect_from:
 <h2>Computer Vision &amp; AI</h2>
 <div class="kc-list">
 <article class="kc-item">
-<img src="/assets/images/projects/object-tracking.svg" alt="Illustration of real-time object tracking and trajectories" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/object-tracking.svg' | relative_url }}" alt="Illustration of real-time object tracking and trajectories" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
         <h3>
         <a href="https://github.com/kimiko-11/real-time-object-detection-tracking"
            target="_blank"
@@ -59,7 +59,7 @@ redirect_from:
       <p class="kc-item__stack">Object Detection · Multi-Object Tracking · Motion Analysis · Robotics Perception</p>
 </article>
 <article class="kc-item">
-<img src="/assets/images/projects/ocr-document-understanding.svg" alt="Illustration of OCR extracting structured information from a receipt" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/ocr-document-understanding.svg' | relative_url }}" alt="Illustration of OCR extracting structured information from a receipt" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
       <h3>
         <a href="https://github.com/kimiko-11/OCR-Based-Document-Understanding-System"
            target="_blank"
@@ -72,7 +72,7 @@ redirect_from:
       <p class="kc-item__stack">Document AI · OCR · Computer Vision · Information Extraction</p>
 </article>
 <article class="kc-item">
-<img src="/assets/images/projects/depth-aware-perception.svg" alt="Illustration of monocular depth-aware object perception" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/depth-aware-perception.svg' | relative_url }}" alt="Illustration of monocular depth-aware object perception" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
         <h3>
         <a href="https://github.com/kimiko-11/Monocular-depth-object-perception"
            target="_blank"
