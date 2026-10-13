@@ -1,17 +1,20 @@
-/* Kimaya Chavan — portfolio styles (white + orange) */
+/* Kimaya Chavan — portfolio styles (warm editorial palette) */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --kc-white: #ffffff;
-  --kc-peach: #fff7f1;
-  --kc-orange-light: #ffebdd;
-  --kc-orange: #e8752a;
-  --kc-orange-deep: #b04c12; /* small text on peach backgrounds */
-  --kc-orange-dark: #c9591a; /* darker than the brand orange so small text passes contrast on white */
-
-  --kc-text: #242424;
-  --kc-muted: #5f5f5f;
-  --kc-border: #eeeeee;
-
+  --kc-white: #FFFCF8;
+  --kc-peach: #FFF1E7;
+  --kc-orange-light: #F8DFD0;
+  --kc-orange: #D96C45;
+  --kc-orange-deep: #984326;
+  --kc-orange-dark: #AD4E2D;
+  --kc-text: #302C29;
+  --kc-muted: #68615B;
+  --kc-border: #E9DED4;
+  --kc-sage: #E5EBDD;
+  --kc-sage-text: #435640;
+  --kc-amber: #F5E7C8;
   --kc-max-width: 1180px;
 }
 
@@ -110,6 +113,13 @@ img { max-width: 100%; }
 .kc-nav__links a:hover::after,
 .kc-nav__links a:focus-visible::after,
 .kc-nav__links a.is-active::after { width: 100%; }
+
+h1, h2, h3,
+.kc-home__title,
+.kc-page__title,
+.kc-card__num {
+  font-family: "DM Sans", sans-serif;
+}
 
 /* =========================
    COMMON
@@ -680,4 +690,43 @@ img { max-width: 100%; }
 
 @media (max-width: 560px) {
   .kc-page--projects .kc-item { padding: 20px; }
+}
+
+/* =========================
+   REFINED COLOUR ACCENTS
+   ========================= */
+
+.kc-tags li:nth-child(3n + 1) {
+  background: var(--kc-peach);
+  border-color: var(--kc-orange-light);
+}
+
+.kc-tags li:nth-child(3n + 2) {
+  background: var(--kc-sage);
+  border-color: #D0DCC8;
+  color: var(--kc-sage-text);
+}
+
+.kc-tags li:nth-child(3n) {
+  background: var(--kc-amber);
+  border-color: #EAD9AD;
+  color: #75551D;
+}
+
+.kc-card {
+  border-color: var(--kc-border);
+}
+
+.kc-card__num {
+  color: var(--kc-orange-dark);
+}
+
+.kc-button:hover,
+.kc-button:focus-visible {
+  background: #984326;
+}
+
+.kc-page--projects .kc-item {
+  border-left-color: var(--kc-orange);
+  box-shadow: 0 6px 20px rgba(100, 65, 43, 0.06);
 }
