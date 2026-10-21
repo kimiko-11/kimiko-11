@@ -14,7 +14,7 @@ redirect_from:
 <p class="kc-page__eyebrow">Experiments, mistakes &amp; things learned</p>
 <h1 class="kc-page__title">Lab Notes</h1>
 <p class="kc-page__intro">An engineering notebook for documenting what I’m learning, testing and figuring out along the way.</p>
-<p><a href="[https://ink-yew-1d6.notion.site/Somewhere-between-pixels-and-perception-1cc00d7ababf80f5a160e2857368f823](https://technofairy.notion.site/Somewhere-between-pixels-and-perception-1cc00d7ababf80f5a160e2857368f823)" target="_blank" rel="noopener noreferrer">Read all notes on Notion ↗</a></p>
+<p><a href="https://technofairy.notion.site/Somewhere-between-pixels-and-perception-1cc00d7ababf80f5a160e2857368f823" target="_blank" rel="noopener noreferrer">Read all notes on Notion ↗</a></p>
 </header>
 
 <div class="kc-list">
