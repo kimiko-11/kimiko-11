@@ -30,6 +30,8 @@ redirect_from:
 
 <p class="kc-home__eyebrow">AI · Computer Vision · Perception</p>
 
+<p class="kc-home__statement">Building systems that <span>see and understand.</span></p>
+
 <h1>Kimaya<br>Chavan</h1>
 
 <p class="kc-home__title">AI &amp; Perception Engineer</p>
