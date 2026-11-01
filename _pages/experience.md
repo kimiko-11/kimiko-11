@@ -93,11 +93,19 @@ description: "Engineering, AI, computer vision and technical experience of Kimay
           <div class="kc-experience__rail"><span></span></div>
           <div class="kc-experience__content">
             <div class="kc-experience__topline">
-              <p class="kc-experience__type">Student organisation</p>
+              <p class="kc-experience__type">Technical leadership</p>
+              <span class="kc-experience__date">Aug 2025 — Aug 2026</span>
             </div>
-            <h3>Technical Committee</h3>
-            <p class="kc-experience__org">DJS-ACM</p>
-            <p class="kc-experience__description">Contributed to technical activities and interactive engineering experiences, including the floor piano installation.</p>
+            <h3>Technical Head — VCP</h3>
+            <p class="kc-experience__org">DJSCE ACM Student Chapter</p>
+            <p class="kc-experience__description">Drove the technical side of hands-on, experience-led builds — taking ideas from concept to working prototypes. Worked across electronics, embedded systems and computer vision, bringing hardware and software together, coordinating build execution, and tackling the integration and debugging that turn a promising concept into something people can actually interact with. Contributions included interactive builds such as Buzz Wire, the Reaction Time Tester and Laser Shooter, alongside computer-vision work for hackathons.</p>
+            <ul class="kc-experience__tags">
+              <li>Technical Leadership</li>
+              <li>Embedded Systems</li>
+              <li>Electronics</li>
+              <li>Computer Vision</li>
+              <li>Prototyping</li>
+            </ul>
           </div>
         </article>
 
@@ -105,15 +113,17 @@ description: "Engineering, AI, computer vision and technical experience of Kimay
           <div class="kc-experience__rail"><span></span></div>
           <div class="kc-experience__content">
             <div class="kc-experience__topline">
-              <p class="kc-experience__type">Technical team</p>
+              <p class="kc-experience__type">Committee role</p>
+              <span class="kc-experience__date">Aug 2024 — Jul 2025</span>
             </div>
-            <h3>VCP Technical</h3>
-            <p class="kc-experience__org">DJS-ACM</p>
-            <p class="kc-experience__description">Worked on hands-on interactive builds including a contact-based circuit continuity game, a reaction-time tester and a laser-shooter setup, alongside computer-vision hackathon work.</p>
+            <h3>Co-Committee Member — Technical</h3>
+            <p class="kc-experience__org">DJSCE ACM Student Chapter</p>
+            <p class="kc-experience__description">Helped shape the chapter’s hands-on technical experiences, contributing to interactive installations that made engineering tangible and engaging. Worked on the Floor Piano and Whack-a-Mole builds, helping bring together sensor-based electronics, physical interaction and responsive behaviour — with practical involvement in prototyping, integration and testing.</p>
             <ul class="kc-experience__tags">
+              <li>Interactive Systems</li>
+              <li>Sensor Integration</li>
               <li>Electronics</li>
               <li>Prototyping</li>
-              <li>Computer Vision</li>
             </ul>
           </div>
         </article>

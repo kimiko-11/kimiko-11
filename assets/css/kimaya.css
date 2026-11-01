@@ -1244,3 +1244,38 @@ h1, h2, h3, h4,
   .kc-experience__entry { gap: 14px; padding-bottom: 35px; }
   .kc-experience__closing { align-items: flex-start; gap: 14px; }
 }
+
+
+/* BLACK NAVIGATION BAR — shared across all portfolio pages */
+.kc-nav {
+  background: #111111;
+  border-bottom: 1px solid #292929;
+}
+
+.kc-nav__brand {
+  color: #F7F7F5;
+}
+
+.kc-nav__brand:hover {
+  color: var(--kc-orange);
+}
+
+.kc-nav__links a {
+  color: #D0D0CC;
+}
+
+.kc-nav__links a:hover,
+.kc-nav__links a:focus-visible,
+.kc-nav__links a.is-active {
+  color: var(--kc-orange);
+}
+
+.kc-nav__links a::after {
+  background: var(--kc-orange);
+}
+
+@media (max-width: 850px) {
+  .kc-nav {
+    background: rgba(17, 17, 17, 0.97);
+  }
+}
