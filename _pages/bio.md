@@ -13,24 +13,48 @@ description: "Meet Kimaya Chavan — an AI and perception engineer in the making
   <span>PLAY ME</span>
 </a>
 <div class="kc-vision-doodles" aria-hidden="true">
-  <svg class="kc-vision-doodles__art" viewBox="0 0 440 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M55 88V58h34M143 58h34v30M55 142v30h34M143 172h34v-30"/>
-      <circle cx="116" cy="115" r="33"/><circle cx="116" cy="115" r="12"/><path d="M116 66v-17M116 181v-17M67 115H50M182 115h-17"/>
-      <rect x="250" y="48" width="112" height="76" rx="7"/><circle cx="306" cy="86" r="22"/><circle cx="306" cy="86" r="8"/><path d="M270 38l12-14h47l12 14M362 65h18v43h-18"/>
-      <path d="M242 206h116v82H242zM260 226h34v42h-34zM306 226h34M306 242h34M306 258h34"/>
-      <path d="M80 300l-22 24 22 24M108 348l22-24-22-24M96 366l16-74"/>
-      <path d="M254 365l20-20 20 20 20-20 20 20"/><path d="M274 345v-17M314 345v-17"/>
-      <path d="M70 430h48M94 406v48M160 410l24 24-24 24M184 434h28"/>
-    </g>
-    <g fill="currentColor">
-      <circle cx="218" cy="154" r="4"/><circle cx="232" cy="154" r="4"/><circle cx="246" cy="154" r="4"/>
-      <circle cx="372" cy="180" r="4"/><circle cx="386" cy="180" r="4"/><circle cx="400" cy="180" r="4"/>
-      <rect x="350" y="390" width="9" height="9"/><rect x="365" y="390" width="9" height="9"/><rect x="380" y="390" width="9" height="9"/>
+  <svg class="kc-vision-doodles__art" viewBox="0 0 420 650" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <g stroke="#30284f" stroke-width="6" stroke-linejoin="round" stroke-linecap="square">
+      <!-- headphones -->
+      <path d="M35 104V75Q35 25 85 25Q135 25 135 75V104" fill="none"/>
+      <path d="M29 82h22v55H29zM119 82h22v55h-22z" fill="#c9c2e8"/>
+      <path d="M35 92v27M135 92v27" stroke="#fff5dc" stroke-width="3"/>
+      <!-- camera -->
+      <path d="M215 65h25l13-16h53l13 16h22v91H215z" fill="#a5a5a5" stroke="#171717"/>
+      <circle cx="281" cy="110" r="32" fill="#eee9dc" stroke="#171717"/>
+      <circle cx="281" cy="110" r="20" fill="#555"/>
+      <circle cx="281" cy="110" r="8" fill="#262626" stroke="#aaa" stroke-width="3"/>
+      <path d="M264 61h25v8h-25z" fill="#eee9dc" stroke="#171717" stroke-width="3"/>
+      <!-- star -->
+      <path d="M80 210l17 34 38 5-28 27 7 39-34-18-34 18 7-39-28-27 38-5z" fill="#fff9e9" stroke="#171717"/>
+      <!-- checklist -->
+      <path d="M224 215h105v144H224z" fill="#f7f1df" stroke="#30284f"/>
+      <path d="M250 205h53v20h-53z" fill="#c9c2e8"/>
+      <path d="M243 258l8 9 16-19M243 300l8 9 16-19M280 260h31M280 302h31" fill="none" stroke-width="5"/>
+      <path d="M238 338h73" stroke="#30284f" stroke-width="4"/>
+      <!-- retro music player -->
+      <path d="M28 388h80v168H28z" fill="#37305f" stroke="#30284f"/>
+      <path d="M42 404h52v55H42z" fill="#eee9dc" stroke="#eee9dc" stroke-width="3"/>
+      <path d="M50 447l12-17 8 8 16-20" fill="none" stroke="#37305f" stroke-width="5"/>
+      <circle cx="68" cy="510" r="24" fill="#eee9dc" stroke="#c9c2e8"/>
+      <path d="M63 498l17 12-17 12z" fill="#37305f" stroke="none"/>
+      <!-- CD -->
+      <circle cx="250" cy="455" r="61" fill="#d8d7d2" stroke="#171717"/>
+      <path d="M250 394l19 55-19 67-19-67z" fill="#b7b5b1" stroke="none"/>
+      <path d="M189 455h122M250 394v122" stroke="#fff" stroke-width="3" opacity=".75"/>
+      <circle cx="250" cy="455" r="12" fill="#fff9e9" stroke="#171717" stroke-width="4"/>
+      <!-- hourglass -->
+      <path d="M47 590h86v12H47zM47 640h86v12H47z" fill="#eee9dc" stroke="#171717"/>
+      <path d="M56 602h68l-18 17 18 20H56l18-20z" fill="#eee9dc" stroke="#171717"/>
+      <path d="M77 631l15-10 14 10" fill="none" stroke="#aaa" stroke-width="5"/>
+      <!-- tiny alien -->
+      <path d="M348 238l-8-18 18 12 15-12-5 21q20 16 7 37-15 24-42 8-23-15-7-36z" fill="#c9c2e8" stroke="#30284f"/>
+      <circle cx="350" cy="259" r="4" fill="#30284f" stroke="none"/><circle cx="367" cy="259" r="4" fill="#30284f" stroke="none"/>
+      <!-- pixel sparkles -->
+      <path d="M170 170h10v10h-10zM183 157h10v10h-10zM360 405h10v10h-10zM374 391h10v10h-10z" fill="#fff4d9" stroke="none"/>
+      <path d="M165 365h24M177 353v24M355 174h22M366 163v22" stroke="#fff4d9" stroke-width="4"/>
     </g>
   </svg>
-  <span class="kc-vision-doodles__label kc-vision-doodles__label--one">OBJECT DETECTED</span>
-  <span class="kc-vision-doodles__label kc-vision-doodles__label--two">0101 / SEE THE WORLD</span>
 </div>
 <div class="kc-container">
 
