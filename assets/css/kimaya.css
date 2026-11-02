@@ -1341,8 +1341,6 @@ h1, h2, h3, h4,
   from { transform: translateY(-5px) rotate(-.5deg); }
   to { transform: translateY(5px) rotate(.5deg); }
 }
-  to { transform: translateY(7px) rotate(1deg); }
-}
 .kc-page--bio .kc-section ul { padding-left: 1.35rem; }
 .kc-page--bio .kc-section li::marker { color: var(--kc-orange); }
 .kc-page--bio footer.kc-section {
