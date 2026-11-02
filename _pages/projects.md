@@ -20,20 +20,21 @@ redirect_from:
 <h2>Industrial</h2>
 <div class="kc-list">
 <article class="kc-item">
-<img src="{{ '/assets/images/projects/xray-fuse-segmentation.svg' | relative_url }}" alt="Illustration of X-ray fuse defect segmentation" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="https://www.unicompxray.com/photo/ps220894168-industrial_x_ray_unicomp_ndt_inspection_machine_unc160_for_die_casting_parts_quality_inspection.jpg" alt="Industrial X-ray non-destructive testing inspection equipment" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
 <h3>X-Ray Fuse Defect Segmentation</h3>
 <p>A computer vision system for detecting, counting and segmenting shells in X-ray tray imagery for automated inspection.</p>
 <p class="kc-item__stack">Python · OpenCV · CVAT · YOLO</p>
 <p class="kc-item__stack">Computer Vision · Perception · Physical AI — code is confidential</p>
 </article>
 <article class="kc-item">
+<img src="https://www.alpha-robot.com.cn/file/ueditor/php/upload/image/20260114/1768356493709237.png" alt="Autonomous indoor service robot operating in an industrial environment" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
 <h3>IoT-Aided Smart Service Vehicle</h3>
 <p>An IoT-enabled autonomous service vehicle developed for Salesforce and demonstrated across Salesforce sites in the UK and US. Designed to navigate a LEGO City environment, the vehicle combines physical sensing, ESP32/Raspberry Pi control and cloud connectivity, with Salesforce Platform Events and MQTT explored for vehicle-to-cloud communication.</p>
 <p class="kc-item__stack">ESP32 · Raspberry Pi · MQTT · Salesforce Platform Events</p>
 <p class="kc-item__stack">Autonomous Robotics · Industrial IoT · Embedded Systems · Cloud Integration</p>
 </article>
 <article class="kc-item">
-<img src="{{ '/assets/images/projects/cdet-shell-counting.svg' | relative_url }}" alt="Illustration of industrial shell counting with computer vision" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="https://www.keyence.com/Images/how-to-future-proof-your-manufacturing-process-with-2d-machine-vision-systems_thumbnail_01_2245880.jpg" alt="Industrial machine-vision system inspecting metal components on a tray" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
 <h3>CDET Automated Shell Counting System</h3>
 <p>A computer-vision system developed for CDET Explosive Industries to automate the counting of blasting shells in industrial trays. The system uses dynamic tray localisation, circular-object detection, geometric filtering and multi-frame validation to produce reliable shell counts under real camera variation.</p>
 <p class="kc-item__stack">Python · OpenCV · NumPy · USB Camera · JSON Configuration</p>
@@ -46,7 +47,7 @@ redirect_from:
 <h2>Computer Vision &amp; AI</h2>
 <div class="kc-list">
 <article class="kc-item">
-<img src="{{ '/assets/images/projects/object-tracking.svg' | relative_url }}" alt="Illustration of real-time object tracking and trajectories" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3df5/680a070c3b99253410dd4947_Object-tracking_Thumbnail.webp" alt="Real-world object tracking on a moving conveyor" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
         <h3>
         <a href="https://github.com/kimiko-11/real-time-object-detection-tracking"
            target="_blank"
@@ -59,7 +60,7 @@ redirect_from:
       <p class="kc-item__stack">Object Detection · Multi-Object Tracking · Motion Analysis · Robotics Perception</p>
 </article>
 <article class="kc-item">
-<img src="{{ '/assets/images/projects/ocr-document-understanding.svg' | relative_url }}" alt="Illustration of OCR extracting structured information from a receipt" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=rapidreceipt_fg_organize&clid=SAPDAM&id=7241d0e9ad2799b5a248e9b0bd4e600f17b58507&prclid=productpictures&prid=original&vid=7241d0e9ad2799b5a248e9b0bd4e600f17b58507" alt="Receipt document scanner used for digitising printed documents" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
       <h3>
         <a href="https://github.com/kimiko-11/OCR-Based-Document-Understanding-System"
            target="_blank"
@@ -72,7 +73,7 @@ redirect_from:
       <p class="kc-item__stack">Document AI · OCR · Computer Vision · Information Extraction</p>
 </article>
 <article class="kc-item">
-<img src="{{ '/assets/images/projects/depth-aware-perception.svg' | relative_url }}" alt="Illustration of monocular depth-aware object perception" loading="lazy" style="display:block;width:100%;aspect-ratio: 2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="https://scx2.b-cdn.net/gfx/news/hires/2021/theyll-lead-the-robots.jpg" alt="Research mobile robot equipped for autonomous navigation and perception" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
         <h3>
         <a href="https://github.com/kimiko-11/Monocular-depth-object-perception"
            target="_blank"
