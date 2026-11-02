@@ -5,7 +5,7 @@ permalink: /bio/
 description: "Meet Kimaya Chavan — an AI and perception engineer in the making, exploring the space between code, creativity and the physical world."
 ---
 
-<div class="kc-page">
+<div class="kc-page kc-page--bio">
 <div class="kc-container">
 
 <header class="kc-page__header">

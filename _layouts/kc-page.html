@@ -43,6 +43,15 @@
       {%- endfor -%}
     </nav>
 
+    {%- if page.url contains '/bio/' -%}
+    <a class="kc-dino-link" href="https://kimiko-11.github.io/HCI_Dino_game/" target="_blank" rel="noopener noreferrer" aria-label="Play the Dino Game">
+      <svg class="kc-dino-link__icon" viewBox="0 0 32 32" role="img" aria-hidden="true" shape-rendering="crispEdges">
+        <path fill="currentColor" d="M18 2h7v3h4v8h-4v4h-5v4h-3v6h-4v-4H9v4H5v-7h4v-5h4v-8h5zM25 7h2v2h-2zM2 25h5v3H2zM17 17h4v3h-4z"/>
+      </svg>
+      <span>PLAY ME</span>
+    </a>
+    {%- endif -%}
+
   </div>
 </header>
 
