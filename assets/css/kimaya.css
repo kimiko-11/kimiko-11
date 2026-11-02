@@ -1281,187 +1281,146 @@ h1, h2, h3, h4,
 }
 
 
-/* =========================
-   BIO — moving sky + letter card
-   ========================= */
+
+/* BIO: animated blue sky, full-height letter and cloud-side game link */
 .kc-page--bio {
   position: relative;
   isolation: isolate;
   min-height: calc(100vh - 76px);
   overflow: hidden;
-  padding: clamp(22px, 3vw, 42px) 0 clamp(30px, 5vw, 64px);
-  background-color: #167bd0;
-  background-image:
-    radial-gradient(ellipse at 12% 12%, rgba(255,255,255,.98) 0 4%, transparent 13%),
-    radial-gradient(ellipse at 20% 18%, rgba(255,255,255,.88) 0 5%, transparent 15%),
-    radial-gradient(ellipse at 4% 38%, rgba(255,255,255,.9) 0 5%, transparent 15%),
-    radial-gradient(ellipse at 88% 28%, rgba(255,255,255,.92) 0 4%, transparent 14%),
-    radial-gradient(ellipse at 78% 34%, rgba(255,255,255,.72) 0 5%, transparent 17%),
-    radial-gradient(ellipse at 92% 78%, rgba(255,255,255,.9) 0 5%, transparent 16%),
-    linear-gradient(115deg, #76c9f3 0%, #258ee0 42%, #0753b9 100%);
-  background-size: 160% 160%;
-  animation: kc-sky-drift 52s ease-in-out infinite alternate;
+  padding: 0;
+  background: linear-gradient(115deg, #78d1f6 0%, #238fe5 48%, #0750bd 100%);
 }
-
 .kc-page--bio::before,
 .kc-page--bio::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
-  width: 150%;
-  height: 48%;
-  left: -20%;
+  width: 180%;
+  height: 58%;
+  left: -35%;
   border-radius: 50%;
-  filter: blur(24px);
-  opacity: .48;
+  opacity: .95;
+  filter: blur(13px);
   background:
-    radial-gradient(ellipse at 18% 55%, #fff 0 7%, transparent 22%),
-    radial-gradient(ellipse at 30% 42%, #fff 0 8%, transparent 23%),
-    radial-gradient(ellipse at 44% 65%, #eaf8ff 0 7%, transparent 20%),
-    radial-gradient(ellipse at 70% 45%, #fff 0 8%, transparent 22%),
-    radial-gradient(ellipse at 84% 60%, #fff 0 6%, transparent 18%);
-  animation: kc-cloud-float 68s linear infinite alternate;
+    radial-gradient(ellipse at 8% 58%, rgba(255,255,255,.98) 0 5%, transparent 13%),
+    radial-gradient(ellipse at 15% 48%, rgba(255,255,255,.98) 0 7%, transparent 16%),
+    radial-gradient(ellipse at 23% 61%, rgba(255,255,255,.96) 0 8%, transparent 17%),
+    radial-gradient(ellipse at 36% 47%, rgba(255,255,255,.9) 0 6%, transparent 15%),
+    radial-gradient(ellipse at 52% 58%, rgba(255,255,255,.95) 0 8%, transparent 17%),
+    radial-gradient(ellipse at 68% 45%, rgba(255,255,255,.9) 0 7%, transparent 16%),
+    radial-gradient(ellipse at 83% 60%, rgba(255,255,255,.95) 0 8%, transparent 17%),
+    radial-gradient(ellipse at 95% 48%, rgba(255,255,255,.9) 0 6%, transparent 15%);
+  animation: kc-cloud-drift 42s ease-in-out infinite alternate;
 }
-
-.kc-page--bio::before { top: -10%; }
+.kc-page--bio::before { top: -17%; }
 .kc-page--bio::after {
-  bottom: -13%;
   left: -10%;
-  opacity: .35;
-  animation-duration: 86s;
+  bottom: -19%;
+  opacity: .62;
+  transform: scaleX(-1);
+  animation-duration: 58s;
   animation-direction: alternate-reverse;
 }
-
-@keyframes kc-sky-drift {
-  from { background-position: 0% 0%; }
-  to { background-position: 100% 70%; }
+@keyframes kc-cloud-drift {
+  0% { translate: -7% 0; }
+  100% { translate: 8% 7%; }
 }
-
-@keyframes kc-cloud-float {
-  from { transform: translate3d(-3%, 0, 0) scale(1); }
-  to { transform: translate3d(5%, 3%, 0) scale(1.08); }
-}
-
-/* The paper occupies the left side like a full-height letter. */
 .kc-page--bio > .kc-container {
-  width: min(68vw, 980px);
-  max-width: none;
-  min-height: calc(100vh - 160px);
-  margin: 0 auto 0 0;
-  padding: clamp(30px, 4.5vw, 68px) clamp(26px, 5.5vw, 88px);
+  box-sizing: border-box;
   position: relative;
-  z-index: 1;
-  background:
-    linear-gradient(rgba(255,255,255,.94), rgba(255,255,255,.94)),
-    repeating-linear-gradient(0deg, transparent 0 3px, rgba(24,42,70,.025) 3px 4px);
-  border: 1px solid rgba(20, 34, 65, .32);
-  border-left: 0;
-  box-shadow: 12px 12px 0 rgba(8, 25, 68, .78), 0 18px 42px rgba(4, 28, 70, .16);
+  z-index: 2;
+  width: 60vw;
+  max-width: none;
+  min-height: calc(100vh - 76px);
+  margin: 0;
+  padding: clamp(34px, 4.5vw, 72px) clamp(28px, 5vw, 76px);
+  background: #fffdf5;
+  border-right: 2px solid rgba(18, 25, 66, .8);
+  box-shadow: 12px 0 0 rgba(12, 22, 69, .9), 20px 0 42px rgba(4, 28, 70, .14);
 }
-
 .kc-page--bio .kc-page__header {
   max-width: 760px;
   margin-bottom: clamp(42px, 5vw, 66px);
 }
-
-.kc-page--bio .kc-page__title {
-  font-size: clamp(2.6rem, 5.4vw, 4.8rem);
-}
-
-.kc-page--bio .kc-section {
-  margin-top: clamp(38px, 4vw, 58px);
-}
-
-.kc-page--bio .kc-section h2 {
-  font-size: clamp(1.3rem, 2vw, 1.65rem);
-}
-
+.kc-page--bio .kc-page__title { font-size: clamp(2.6rem, 5.4vw, 4.8rem); }
+.kc-page--bio .kc-section { margin-top: clamp(38px, 4vw, 58px); }
+.kc-page--bio .kc-section h2 { font-size: clamp(1.3rem, 2vw, 1.65rem); }
 .kc-page--bio .kc-section p,
-.kc-page--bio .kc-section li {
-  color: #4c5668;
-}
-
-.kc-page--bio .kc-section ul {
-  padding-left: 1.35rem;
-}
-
-.kc-page--bio .kc-section li::marker {
-  color: var(--kc-orange);
-}
-
+.kc-page--bio .kc-section li { color: #4c5668; }
+.kc-page--bio .kc-section ul { padding-left: 1.35rem; }
+.kc-page--bio .kc-section li::marker { color: var(--kc-orange); }
 .kc-page--bio footer.kc-section {
   padding-top: 22px;
   border-top: 1px solid #d8dce3;
 }
-
 .kc-dino-link {
-  display: inline-flex;
+  position: absolute;
+  z-index: 3;
+  top: clamp(90px, 15vh, 180px);
+  right: clamp(24px, 8vw, 140px);
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  flex: 0 0 auto;
-  color: #ff8a24;
+  gap: 7px;
+  color: #fff;
   text-decoration: none;
   font-family: "Space Grotesk", sans-serif;
-  font-size: .72rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-  white-space: nowrap;
-  transition: transform .18s ease, color .18s ease;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-shadow: 0 2px 8px rgba(0,35,100,.35);
+  transition: transform .2s ease;
 }
-
 .kc-dino-link__icon {
-  width: 32px;
-  height: 32px;
+  width: clamp(48px, 5vw, 68px);
+  height: clamp(48px, 5vw, 68px);
   image-rendering: pixelated;
-  filter: drop-shadow(0 2px 0 rgba(0,0,0,.25));
-  animation: kc-dino-beep 1.8s steps(2, end) infinite;
+  filter: drop-shadow(0 4px 0 rgba(0,25,80,.28));
+  animation: kc-dino-beep 1.2s steps(2, end) infinite;
 }
-
-.kc-dino-link:hover,
-.kc-dino-link:focus-visible {
-  color: #ffd27a;
-  transform: translateY(-2px);
-}
-
 .kc-dino-link span {
-  padding: 7px 10px;
-  border: 1px solid rgba(255,255,255,.35);
-  border-radius: 3px;
-  background: rgba(255,255,255,.08);
+  padding: 8px 13px;
+  border: 1px solid rgba(255,255,255,.75);
+  border-radius: 999px;
+  background: rgba(5,57,145,.38);
 }
-
+.kc-dino-link:hover,
+.kc-dino-link:focus-visible { transform: translateY(-4px) scale(1.04); color: #fff7b5; }
 @keyframes kc-dino-beep {
-  0%, 100% { transform: translateY(0) scale(1); }
-  50% { transform: translateY(-2px) scale(1.07); }
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-5px) rotate(3deg); }
 }
-
 @media (max-width: 850px) {
-  .kc-nav__inner { flex-direction: row; align-items: center; flex-wrap: wrap; }
-  .kc-nav__links { order: 3; }
-  .kc-dino-link { margin-left: auto; }
   .kc-page--bio > .kc-container {
-    width: min(82vw, 760px);
-    min-height: auto;
+    width: 68vw;
+    min-height: calc(100vh - 76px);
+    padding: 34px 28px;
   }
+  .kc-dino-link { right: 5vw; top: 110px; }
 }
-
 @media (max-width: 560px) {
-  .kc-page--bio { padding: 16px 0 28px; }
+  .kc-page--bio { overflow: visible; }
   .kc-page--bio > .kc-container {
-    width: calc(100% - 18px);
-    padding: 30px 22px;
-    margin-right: 18px;
-    box-shadow: 6px 7px 0 rgba(8, 25, 68, .78);
+    width: 100%;
+    min-height: auto;
+    padding: 34px 22px;
+    border-right: 0;
+    box-shadow: none;
   }
   .kc-page--bio .kc-page__title { font-size: clamp(2.25rem, 12vw, 3.4rem); }
-  .kc-dino-link { gap: 5px; }
-  .kc-dino-link__icon { width: 27px; height: 27px; }
+  .kc-dino-link {
+    position: relative;
+    top: auto;
+    right: auto;
+    z-index: 4;
+    width: fit-content;
+    margin: 18px 20px 18px auto;
+    flex-direction: row;
+  }
+  .kc-dino-link__icon { width: 42px; height: 42px; }
 }
-
 @media (prefers-reduced-motion: reduce) {
-  .kc-page--bio,
-  .kc-page--bio::before,
-  .kc-page--bio::after,
-  .kc-dino-link__icon { animation: none !important; }
+  .kc-page--bio::before, .kc-page--bio::after, .kc-dino-link__icon { animation: none !important; }
 }
