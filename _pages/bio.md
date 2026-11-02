@@ -12,6 +12,26 @@ description: "Meet Kimaya Chavan — an AI and perception engineer in the making
   </svg>
   <span>PLAY ME</span>
 </a>
+<div class="kc-vision-doodles" aria-hidden="true">
+  <svg class="kc-vision-doodles__art" viewBox="0 0 440 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M55 88V58h34M143 58h34v30M55 142v30h34M143 172h34v-30"/>
+      <circle cx="116" cy="115" r="33"/><circle cx="116" cy="115" r="12"/><path d="M116 66v-17M116 181v-17M67 115H50M182 115h-17"/>
+      <rect x="250" y="48" width="112" height="76" rx="7"/><circle cx="306" cy="86" r="22"/><circle cx="306" cy="86" r="8"/><path d="M270 38l12-14h47l12 14M362 65h18v43h-18"/>
+      <path d="M242 206h116v82H242zM260 226h34v42h-34zM306 226h34M306 242h34M306 258h34"/>
+      <path d="M80 300l-22 24 22 24M108 348l22-24-22-24M96 366l16-74"/>
+      <path d="M254 365l20-20 20 20 20-20 20 20"/><path d="M274 345v-17M314 345v-17"/>
+      <path d="M70 430h48M94 406v48M160 410l24 24-24 24M184 434h28"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="218" cy="154" r="4"/><circle cx="232" cy="154" r="4"/><circle cx="246" cy="154" r="4"/>
+      <circle cx="372" cy="180" r="4"/><circle cx="386" cy="180" r="4"/><circle cx="400" cy="180" r="4"/>
+      <rect x="350" y="390" width="9" height="9"/><rect x="365" y="390" width="9" height="9"/><rect x="380" y="390" width="9" height="9"/>
+    </g>
+  </svg>
+  <span class="kc-vision-doodles__label kc-vision-doodles__label--one">OBJECT DETECTED</span>
+  <span class="kc-vision-doodles__label kc-vision-doodles__label--two">0101 / SEE THE WORLD</span>
+</div>
 <div class="kc-container">
 
 <header class="kc-page__header">
