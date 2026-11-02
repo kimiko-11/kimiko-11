@@ -2,60 +2,80 @@
 layout: kc-page
 title: "Bio"
 permalink: /bio/
-description: "About Kimaya Chavan — from software and electronics to AI, computer vision and perception."
+description: "Meet Kimaya Chavan — an AI and perception engineer in the making, exploring the space between code, creativity and the physical world."
 ---
 
 <div class="kc-page">
 <div class="kc-container">
 
 <header class="kc-page__header">
-<p class="kc-page__eyebrow">Somewhere between pixels and perception</p>
-<h1 class="kc-page__title">A little about me</h1>
-<p class="kc-page__intro">A little bit of software, a little bit of electronics, a lot of curiosity, and an ongoing attempt to teach machines how to make sense of the world.</p>
+<p class="kc-page__eyebrow">A curious mind in an experimental universe</p>
+<h1 class="kc-page__title">HELLO, I'M KIMAYA.</h1>
+<p class="kc-page__intro">I like making machines see things differently.</p>
+<p>I'm a final-year engineering student exploring the space between artificial intelligence, electronics and the physical world.</p>
 </header>
 
 <section class="kc-section">
-<h2>How it started</h2>
-<p>I'm a final-year engineering student interested in AI, computer vision and the systems that connect intelligence to the physical world.</p>
-
-<p>My interests have never really stayed in one place. I started with software, got curious about electronics, wandered into AI, and eventually found myself drawn to computer vision and perception. The more I explored, the more I wanted to understand what happens when all these pieces come together.</p>
-
-<p>I like the idea that something can start as a few lines of code and eventually become something that sees, senses or interacts with the world. There's a lot to figure out in between, which is probably my favourite part.</p>
+<p class="kc-page__eyebrow">01 / THE ORIGIN STORY</p>
+<h2>FROM PIXELS TO PERCEPTION.</h2>
+<p>I started with software, got curious about electronics, found my way into AI, and eventually became fascinated by computer vision and perception.</p>
+<p>Somewhere along the way, I realised I wasn't just interested in making machines compute things. I wanted to understand how they could see, interpret and interact with the world around them.</p>
+<p>And that's where things got interesting.</p>
 </section>
 
 <section class="kc-section">
-<h2>From electronics to perception</h2>
-<p>I've explored different things along the way, from embedded systems and robotics to computer vision and machine learning. They might seem like separate interests, but to me, they all connect to the same bigger question: how do we get machines to understand what's happening around them?</p>
-
-<p>Computer vision got me interested in how machines interpret images. Perception got me thinking about what comes next — how a machine uses that information, deals with uncertainty and makes sense of its environment.</p>
-
-<p>I'm still exploring where all of this can take me, but I know I enjoy working at the intersection of software, hardware and AI more than staying in just one of those worlds.</p>
+<p class="kc-page__eyebrow">02 / CONNECTING THE DOTS</p>
+<h2>A LITTLE SOFTWARE. A LITTLE HARDWARE. A LOT OF CURIOSITY.</h2>
+<p>My interests have taken me through embedded systems, robotics, machine learning and computer vision. Each introduced me to a different piece of the puzzle:</p>
+<ul>
+<li><strong>SOFTWARE</strong> — making things work through code.</li>
+<li><strong>ELECTRONICS</strong> — understanding the physical systems behind the code.</li>
+<li><strong>ARTIFICIAL INTELLIGENCE</strong> — giving machines the ability to learn.</li>
+<li><strong>COMPUTER VISION</strong> — helping machines interpret visual information.</li>
+<li><strong>PERCEPTION</strong> — connecting those pieces so intelligent systems can understand their surroundings.</li>
+</ul>
+<p>What fascinates me is what happens when these worlds meet.</p>
 </section>
 
 <section class="kc-section">
-<h2>Things I'm figuring out</h2>
-<p>Right now, I'm learning more about computer vision, deep learning, ROS 2 and perception systems. I'm also exploring model confidence, calibration and distribution shift — basically, what happens when an AI model encounters something it wasn't quite prepared for.</p>
-
-<p>Some days that means training models and looking at results. Other days it's debugging code, working with sensors or wondering why something that should work absolutely does not. I'm learning to appreciate both sides of building things.</p>
-
-<p>I like projects that give me room to experiment, connect different technologies and understand not just whether something works, but why.</p>
+<p class="kc-page__eyebrow">03 / CURRENTLY IN THE LAB</p>
+<h2>THINGS I'M LEARNING, BUILDING AND OCCASIONALLY DEBUGGING AT 2 AM.</h2>
+<p>Right now, I'm exploring:</p>
+<ul>
+<li>Computer vision and deep learning.</li>
+<li>Object detection, segmentation and visual tracking.</li>
+<li>ROS 2 and robotic perception.</li>
+<li>Model confidence, calibration and distribution shift.</li>
+<li>AI systems that operate beyond a computer screen.</li>
+</ul>
+<p>I enjoy getting into the details: training a model, testing an idea, connecting a sensor, studying a result and figuring out why something didn't work the way I expected.</p>
+<p>Not every experiment works. That's kind of the point.</p>
 </section>
 
 <section class="kc-section">
-<h2>Where I want to go</h2>
-<p>I'm working toward becoming an AI &amp; Perception Engineer. I'm especially interested in intelligent systems that can see, understand and interact with the physical world — robots that can make sense of their surroundings rather than simply follow instructions.</p>
-
-<p>There's still a lot I want to learn, from making vision systems more reliable to understanding how perception fits into a complete autonomous system. That's what makes this field interesting to me: there always seems to be another layer to figure out.</p>
+<p class="kc-page__eyebrow">04 / THE BIGGER PICTURE</p>
+<h2>I WANT TO BUILD THINGS THAT INTERACT WITH THE REAL WORLD.</h2>
+<p>I'm working towards becoming an AI &amp; Perception Engineer, with a particular interest in robotics and physical AI.</p>
+<p>Think machines that don't just receive instructions, but can interpret their surroundings, recognise what's happening and make sense of the environment they operate in.</p>
+<p>I'm especially drawn to the intersection of perception, robotics and intelligent systems — the kind of technology that makes the boundary between the digital and physical worlds a little less obvious.</p>
+<p>There's a lot I still want to learn, and that's exactly what makes this exciting.</p>
 </section>
 
 <section class="kc-section">
-<h2>Outside the neat little boxes</h2>
-<p>I don't have everything figured out yet, and I don't think I need to. Right now, I'm happy building projects, following interesting questions and occasionally going down technical rabbit holes I didn't plan on.</p>
-
-<p>Software, electronics, AI — I like that I don't have to choose just one. I'm interested in what happens when they come together to make something that can do more than exist on a screen.</p>
-
-<p>For now, I'm somewhere between pixels and perception, figuring things out one experiment at a time.</p>
+<p class="kc-page__eyebrow">05 / OUTSIDE THE NEAT LITTLE BOXES</p>
+<h2>NOT JUST A BOX OF CODE.</h2>
+<p>I'm curious about ideas that sit outside neat little categories.</p>
+<p>I like experimenting, exploring unfamiliar technologies and finding unexpected connections between things. I don't want to limit myself to one corner of engineering when there are so many interesting problems happening at the intersections.</p>
+<p>For now, I'm building, learning and following questions that lead somewhere interesting.</p>
 </section>
+
+<footer class="kc-section">
+<p class="kc-page__eyebrow">CURRENT COORDINATES</p>
+<h2>Somewhere between pixels, sensors and perception.</h2>
+<p class="kc-page__eyebrow">NEXT DESTINATION</p>
+<p>Still under construction.</p>
+<h2>WONDER FIRST. ENGINEER NEXT.</h2>
+</footer>
 
 </div>
 </div>
