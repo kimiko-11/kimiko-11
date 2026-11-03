@@ -13,49 +13,54 @@ description: "Meet Kimaya Chavan — an AI and perception engineer in the making
   <span>PLAY ME</span>
 </a>
 <div class="kc-vision-doodles" aria-hidden="true">
-  <svg class="kc-vision-doodles__art" viewBox="0 0 420 650" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-    <g stroke="#30284f" stroke-width="6" stroke-linejoin="round" stroke-linecap="square">
-      <!-- headphones -->
-      <path d="M35 104V75Q35 25 85 25Q135 25 135 75V104" fill="none"/>
-      <path d="M29 82h22v55H29zM119 82h22v55h-22z" fill="#c9c2e8"/>
-      <path d="M35 92v27M135 92v27" stroke="#fff5dc" stroke-width="3"/>
-      <!-- camera -->
-      <path d="M215 65h25l13-16h53l13 16h22v91H215z" fill="#a5a5a5" stroke="#171717"/>
-      <circle cx="281" cy="110" r="32" fill="#eee9dc" stroke="#171717"/>
-      <circle cx="281" cy="110" r="20" fill="#555"/>
-      <circle cx="281" cy="110" r="8" fill="#262626" stroke="#aaa" stroke-width="3"/>
-      <path d="M264 61h25v8h-25z" fill="#eee9dc" stroke="#171717" stroke-width="3"/>
-      <!-- star -->
-      <path d="M80 210l17 34 38 5-28 27 7 39-34-18-34 18 7-39-28-27 38-5z" fill="#fff9e9" stroke="#171717"/>
-      <!-- checklist -->
-      <path d="M224 215h105v144H224z" fill="#f7f1df" stroke="#30284f"/>
-      <path d="M250 205h53v20h-53z" fill="#c9c2e8"/>
-      <path d="M243 258l8 9 16-19M243 300l8 9 16-19M280 260h31M280 302h31" fill="none" stroke-width="5"/>
-      <path d="M238 338h73" stroke="#30284f" stroke-width="4"/>
-      <!-- retro music player -->
-      <path d="M28 388h80v168H28z" fill="#37305f" stroke="#30284f"/>
-      <path d="M42 404h52v55H42z" fill="#eee9dc" stroke="#eee9dc" stroke-width="3"/>
-      <path d="M50 447l12-17 8 8 16-20" fill="none" stroke="#37305f" stroke-width="5"/>
-      <circle cx="68" cy="510" r="24" fill="#eee9dc" stroke="#c9c2e8"/>
-      <path d="M63 498l17 12-17 12z" fill="#37305f" stroke="none"/>
-      <!-- CD -->
-      <circle cx="250" cy="455" r="61" fill="#d8d7d2" stroke="#171717"/>
-      <path d="M250 394l19 55-19 67-19-67z" fill="#b7b5b1" stroke="none"/>
-      <path d="M189 455h122M250 394v122" stroke="#fff" stroke-width="3" opacity=".75"/>
-      <circle cx="250" cy="455" r="12" fill="#fff9e9" stroke="#171717" stroke-width="4"/>
-      <!-- hourglass -->
-      <path d="M47 590h86v12H47zM47 640h86v12H47z" fill="#eee9dc" stroke="#171717"/>
-      <path d="M56 602h68l-18 17 18 20H56l18-20z" fill="#eee9dc" stroke="#171717"/>
-      <path d="M77 631l15-10 14 10" fill="none" stroke="#aaa" stroke-width="5"/>
-      <!-- tiny alien -->
-      <path d="M348 238l-8-18 18 12 15-12-5 21q20 16 7 37-15 24-42 8-23-15-7-36z" fill="#c9c2e8" stroke="#30284f"/>
-      <circle cx="350" cy="259" r="4" fill="#30284f" stroke="none"/><circle cx="367" cy="259" r="4" fill="#30284f" stroke="none"/>
-      <!-- pixel sparkles -->
-      <path d="M170 170h10v10h-10zM183 157h10v10h-10zM360 405h10v10h-10zM374 391h10v10h-10z" fill="#fff4d9" stroke="none"/>
-      <path d="M165 365h24M177 353v24M355 174h22M366 163v22" stroke="#fff4d9" stroke-width="4"/>
+  <svg class="kc-vision-doodles__art" viewBox="0 0 520 650" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="stickerBlue" x2="1" y2="1"><stop stop-color="#b9e4ff"/><stop offset="1" stop-color="#6252b5"/></linearGradient>
+      <linearGradient id="stickerPink" x2="1" y2="1"><stop stop-color="#ffd0b0"/><stop offset="1" stop-color="#d95a8d"/></linearGradient>
+      <linearGradient id="stickerMetal" x2="1" y2="1"><stop stop-color="#f5f4e9"/><stop offset="1" stop-color="#888b96"/></linearGradient>
+    </defs>
+    <!-- laptop sticker -->
+    <g transform="translate(72 22) rotate(8)" stroke="#30265f" stroke-width="4" stroke-linejoin="round">
+      <path d="M22 24L94 0l74 40-72 34z" fill="#f5f0ff"/><path d="M94 0v72l74-32V40z" fill="#30265f"/>
+      <path d="M30 25l64-20v58L30 43z" fill="url(#stickerBlue)"/><path d="M0 72l95 35 76-36-78-34z" fill="#c8d8ff"/>
+      <path d="M23 73l71 25 54-25-56-25z" fill="#edf3ff"/><path d="M45 71l8-5 9 3-8 6zM65 78l8-5 9 3-8 6zM85 85l8-5 9 3-8 6z" fill="#7d83bd" stroke-width="1"/>
     </g>
+    <!-- binary note -->
+    <g transform="translate(340 12) rotate(7)" stroke="#171717" stroke-width="6"><path d="M0 15L58 0v92L0 108z" fill="#fffdf4"/><g fill="#171717" stroke="none" font-family="monospace" font-size="17"><text x="9" y="43">01101</text><text x="9" y="65">10101</text><text x="9" y="87">01010</text></g></g>
+    <!-- folder -->
+    <g transform="translate(58 220)" stroke="#202020" stroke-width="5" stroke-linejoin="round"><path d="M0 17h42l14 13h55v63H0z" fill="#e5ec82"/><path d="M0 30h111l-8 63H7z" fill="#c8d56b"/></g>
+    <!-- robotic hand -->
+    <g transform="translate(205 205) rotate(-8)" stroke="#5260a8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="url(#stickerBlue)">
+      <path d="M42 84Q25 75 20 58L5 28Q1 17 10 13Q19 9 25 22l13 22-12-45Q24-12 34-12q10 0 12 11l9 40-2-51q0-12 11-12t12 12l3 51 7-39q3-11 13-8t7 15l-8 52 10-23q6-11 15-5t3 18L103 88Q93 112 68 111z"/>
+      <path d="M47 79l25 11 18-7" fill="none"/>
+    </g>
+    <!-- brain and gear -->
+    <g transform="translate(-2 302)" stroke="#101010" stroke-width="6" stroke-linejoin="round">
+      <path d="M28 27l-8-17 20 6 11-14 11 17 18-2-3 19 15 10-13 14 6 18-20 2-8 18-16-12-18 8-4-20-18-8 12-16z" fill="#161616"/>
+      <path d="M0 39q-20-18-31 0-16 24 4 40-7 23 17 29 8 25 31 13 17 18 32 0 26 4 26-22 22-16 4-36 8-26-16-29-14-21-33-7-19-14-34 12z" fill="#fffdf4"/>
+      <path d="M8 37q-13 9-6 23m35-31q-13 9-6 23m-40 30q14-9 26 3m11 14q-5-16 8-24" fill="none"/>
+    </g>
+    <!-- report paper -->
+    <g transform="translate(190 340) rotate(-28)" stroke="#a9a9a9" stroke-width="3"><path d="M0 0h92v104H0z" fill="#fff"/><path d="M15 25h60M15 38h48M15 51h54M15 64h38" stroke="#333" stroke-dasharray="3 5"/></g>
+    <!-- wireframe perception landscape -->
+    <g transform="translate(315 390) rotate(-13)" fill="none" stroke="#8b6ac7" stroke-width="2" opacity=".95">
+      <path d="M0 25L168 0 194 104 20 139z"/><path d="M0 25l20 114M24 21l20 111M48 18l20 109M72 14l20 110M96 11l20 108M120 7l20 107M144 4l20 106M168 0l26 104"/>
+      <path d="M4 46l171-25M8 68l174-25M12 91l177-26M16 114l181-27"/>
+    </g>
+    <!-- eyeball and detection cone -->
+    <g transform="translate(42 510)"><path d="M42 28Q90-10 142 27L93 74z" fill="#b7f0e9" opacity=".9"/><path d="M0 45Q33-2 72 37Q38 81 0 45z" fill="#fff4e8" stroke="#d48a80" stroke-width="4"/><circle cx="39" cy="40" r="16" fill="#75b5d4"/><circle cx="43" cy="40" r="8" fill="#20243b"/></g>
+    <!-- small pixel sparkles -->
+    <g fill="#fff3dc"><path d="M265 175h12v12h-12zM280 160h12v12h-12zM465 285h10v10h-10zM450 300h10v10h-10z"/></g>
   </svg>
 </div>
+<svg class="kc-bio-arm" viewBox="0 0 220 220" aria-hidden="true">
+  <g stroke="#3b5365" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 176q-10-18 9-27l18-10 5-45q2-13 15-10 10 3 8 15l-2 20 24-34q8-11 18-3 8 8 0 18l-22 34 31-20q12-8 18 4 5 11-7 18l-44 37-51 17z" fill="#e78c70"/>
+    <path d="M95 139l-2-45q-1-13 11-15 13-1 14 12l1 27 25-35q8-10 18-2 8 8 0 18l-23 34" fill="none"/>
+    <circle cx="108" cy="91" r="17" fill="#ffb18f"/><circle cx="155" cy="70" r="20" fill="#d95f91"/><circle cx="155" cy="70" r="8" fill="#f6c9a8"/>
+    <path d="M64 176q-2 20 18 23l38 3 12-18-37-19z" fill="#b8a7d6"/>
+  </g>
+</svg>
 <div class="kc-container">
 
 <header class="kc-page__header">
