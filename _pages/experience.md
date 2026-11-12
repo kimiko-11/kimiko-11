@@ -98,7 +98,7 @@ description: "Engineering, AI, computer vision and technical experience of Kimay
             </div>
             <h3>Technical Head — VCP</h3>
             <p class="kc-experience__org">DJSCE ACM Student Chapter</p>
-            <p class="kc-experience__description">Drove the technical side of hands-on, experience-led builds — taking ideas from concept to working prototypes. Worked across electronics, embedded systems and computer vision, bringing hardware and software together, coordinating build execution, and tackling the integration and debugging that turn a promising concept into something people can actually interact with. Contributions included interactive builds such as Buzz Wire, the Reaction Time Tester and Laser Shooter, alongside computer-vision work for hackathons.</p>
+            <p class="kc-experience__description">Independently researched and implemented solutions across electronics, embedded systems, and computer vision, taking ownership of projects from concept to functional prototypes. Led technical development of interactive builds including Buzz Wire, Reaction Time Tester, and Laser Shooter, overseeing circuit design, programming, integration, and debugging. Also contributed to computer-vision solutions for a national-level hackathon attracting 3 lakh+ registrations, demonstrating independent technical learning, collaborative leadership, and practical problem-solving.</p>
             <ul class="kc-experience__tags">
               <li>Technical Leadership</li>
               <li>Embedded Systems</li>
