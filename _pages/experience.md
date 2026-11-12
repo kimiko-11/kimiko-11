@@ -73,7 +73,7 @@ description: "Engineering, AI, computer vision and technical experience of Kimay
             </div>
             <h3>Computer Vision Intern</h3>
             <p class="kc-experience__org">YuvaIntern</p>
-            <p class="kc-experience__description">Completed a virtual internship focused on computer-vision concepts and practical learning.</p>
+            <p class="kc-experience__description">Gained practical exposure to industry-oriented Computer Vision workflows, working with real-world visual datasets and exploring image processing, data preprocessing, feature extraction, and vision-based analysis</p>
             <ul class="kc-experience__tags">
               <li>Computer Vision</li>
             </ul>
