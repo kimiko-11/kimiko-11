@@ -60,7 +60,7 @@ redirect_from:
 
 <div class="kc-home__about">
 <p class="kc-home__about-label">About Me</p>
-<p>I started from software and gradually found myself drawn toward electronics, intelligent systems and the question of how machines make sense of the physical world. That path led me toward AI, computer vision and, eventually, perception.</p>
+<p>I started from software and gradually found myself drawn towards electronics, intelligent systems and the question of how machines make sense of the physical world. That path led me towards AI, computer vision and eventually perception.</p>
 <p>These days, I’m learning and building around computer vision, deep learning, robotics and systems that connect software with the physical world — somewhere between pixels and perception.</p>
 <a class="kc-button" href="{{ '/resume/' | relative_url }}">View Resume</a>
 </div>
