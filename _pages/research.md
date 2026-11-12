@@ -28,6 +28,15 @@ redirect_from:
 </article>
 
 <article class="kc-item">
+<p class="kc-item__meta">Fellowship proposal</p>
+<h2>Risk-Adaptive Deepfake &amp; Synthetic Identity Detection for KYC Systems</h2>
+<p>A proposal for the TIH–IoT CHANAKYA Fellowship to build a KYC fraud detection system that does not rely on a single deepfake classifier. It layers cryptographic freshness checks, behavioural interaction integrity, identity continuity across sessions, audio-visual consistency analysis and conditional physiological signals, with each layer adding independent risk evidence to one explainable score. A frequency-residual preprocessing module exposes high-frequency artifacts that RGB-based models miss, and costlier checks run only when risk stays ambiguous, keeping latency low for mobile-first banking and fintech onboarding.</p>
+<ul class="kc-tags">
+<li>Deepfake Detection</li><li>KYC</li><li>Synthetic Identity</li><li>Explainable AI</li><li>Frequency Analysis</li><li>FinTech</li>
+</ul>
+</article>
+
+<article class="kc-item">
 <p class="kc-item__meta">Artifact</p>
 <h2><a href="https://github.com/kimiko-11/IPD-Acidtrace" target="_blank" rel="noopener noreferrer">AcidTrace</a></h2>
 <p>A blockchain-based traceability system for the acid supply chain. Every transfer from source to end user is recorded as a block linked by SHA-256 hashes to the previous transfer, so the full movement of a batch can be followed end to end. A balance check flags an anomaly whenever acid is unaccounted for, and a Flask API, role-specific web dashboards and a chain explorer make the records visible to the people in the chain.</p>
