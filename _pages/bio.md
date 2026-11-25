@@ -6,109 +6,55 @@ description: "Meet Kimaya Chavan — an AI and perception engineer in the making
 ---
 
 <div class="kc-page kc-page--bio">
-<div class="kc-bio-stage">
-<div class="kc-bio-art" aria-hidden="true">
-  <svg class="kc-bio-arm" viewBox="0 0 190 190" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" stroke="#20283c" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
-      <path d="M34 164h92M55 164l12-19M105 164l-8-19"/>
-      <path fill="#f4b35e" d="m62 139 28-17 20 15-12 17-28 3z"/>
-      <path d="m82 128 9-37 25-16 13 12-20 23-5 27"/>
-      <path fill="#f4b35e" d="m107 75 13-16 20 4 12 18-11 13-18-9"/>
-      <path d="m143 68 13-19m-4 30 20-7m-28 19 13 15"/>
-      <circle cx="90" cy="92" r="9" fill="#e07a49"/>
-      <path d="m72 145 22 8"/>
-    </g>
-    <path d="m116 53 8-12 10 5-4 14" fill="#82949c" stroke="#20283c" stroke-width="5"/>
+<a class="kc-dino-link" href="https://kimiko-11.github.io/HCI_Dino_game/" target="_blank" rel="noopener noreferrer" aria-label="Play the Dino Game">
+  <svg class="kc-dino-link__icon" viewBox="0 0 32 32" role="img" aria-hidden="true" shape-rendering="crispEdges">
+    <path fill="currentColor" d="M18 2h7v3h4v8h-4v4h-5v4h-3v6h-4v-4H9v4H5v-7h4v-5h4v-8h5zM25 7h2v2h-2zM2 25h5v3H2zM17 17h4v3h-4z"/>
   </svg>
-
-  <svg class="kc-bio-brain" viewBox="0 0 180 150" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="#20283c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
-      <path d="M82 34c-6-20-33-20-39-2-22-3-31 22-18 36-17 18-5 42 13 43 2 21 24 26 40 14l10-17V48z" fill="#edae9b"/>
-      <path d="M95 34c6-20 33-20 39-2 22-3 31 22 18 36 17 18 5 42-13 43-2 21-24 26-40 14L89 108V48z" fill="#edae9b"/>
-      <path d="M89 43v76m-30-72 8 19-9 12 16 10-7 19m47-60-8 19 9 12-16 10 7 19" fill="none"/>
-      <path d="M65 124v15h51v-15" fill="#e7d8b8"/>
-      <path d="M70 139v8m12-8v8m13-8v8m12-8v8" />
+  <span>PLAY ME</span>
+</a>
+<div class="kc-vision-doodles" aria-hidden="true">
+  <svg class="kc-vision-doodles__art" viewBox="0 0 420 650" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <g stroke="#30284f" stroke-width="6" stroke-linejoin="round" stroke-linecap="square">
+      <!-- headphones -->
+      <path d="M35 104V75Q35 25 85 25Q135 25 135 75V104" fill="none"/>
+      <path d="M29 82h22v55H29zM119 82h22v55h-22z" fill="#c9c2e8"/>
+      <path d="M35 92v27M135 92v27" stroke="#fff5dc" stroke-width="3"/>
+      <!-- camera -->
+      <path d="M215 65h25l13-16h53l13 16h22v91H215z" fill="#a5a5a5" stroke="#171717"/>
+      <circle cx="281" cy="110" r="32" fill="#eee9dc" stroke="#171717"/>
+      <circle cx="281" cy="110" r="20" fill="#555"/>
+      <circle cx="281" cy="110" r="8" fill="#262626" stroke="#aaa" stroke-width="3"/>
+      <path d="M264 61h25v8h-25z" fill="#eee9dc" stroke="#171717" stroke-width="3"/>
+      <!-- star -->
+      <path d="M80 210l17 34 38 5-28 27 7 39-34-18-34 18 7-39-28-27 38-5z" fill="#fff9e9" stroke="#171717"/>
+      <!-- checklist -->
+      <path d="M224 215h105v144H224z" fill="#f7f1df" stroke="#30284f"/>
+      <path d="M250 205h53v20h-53z" fill="#c9c2e8"/>
+      <path d="M243 258l8 9 16-19M243 300l8 9 16-19M280 260h31M280 302h31" fill="none" stroke-width="5"/>
+      <path d="M238 338h73" stroke="#30284f" stroke-width="4"/>
+      <!-- retro music player -->
+      <path d="M28 388h80v168H28z" fill="#37305f" stroke="#30284f"/>
+      <path d="M42 404h52v55H42z" fill="#eee9dc" stroke="#eee9dc" stroke-width="3"/>
+      <path d="M50 447l12-17 8 8 16-20" fill="none" stroke="#37305f" stroke-width="5"/>
+      <circle cx="68" cy="510" r="24" fill="#eee9dc" stroke="#c9c2e8"/>
+      <path d="M63 498l17 12-17 12z" fill="#37305f" stroke="none"/>
+      <!-- CD -->
+      <circle cx="250" cy="455" r="61" fill="#d8d7d2" stroke="#171717"/>
+      <path d="M250 394l19 55-19 67-19-67z" fill="#b7b5b1" stroke="none"/>
+      <path d="M189 455h122M250 394v122" stroke="#fff" stroke-width="3" opacity=".75"/>
+      <circle cx="250" cy="455" r="12" fill="#fff9e9" stroke="#171717" stroke-width="4"/>
+      <!-- hourglass -->
+      <path d="M47 590h86v12H47zM47 640h86v12H47z" fill="#eee9dc" stroke="#171717"/>
+      <path d="M56 602h68l-18 17 18 20H56l18-20z" fill="#eee9dc" stroke="#171717"/>
+      <path d="M77 631l15-10 14 10" fill="none" stroke="#aaa" stroke-width="5"/>
+      <!-- tiny alien -->
+      <path d="M348 238l-8-18 18 12 15-12-5 21q20 16 7 37-15 24-42 8-23-15-7-36z" fill="#c9c2e8" stroke="#30284f"/>
+      <circle cx="350" cy="259" r="4" fill="#30284f" stroke="none"/><circle cx="367" cy="259" r="4" fill="#30284f" stroke="none"/>
+      <!-- pixel sparkles -->
+      <path d="M170 170h10v10h-10zM183 157h10v10h-10zM360 405h10v10h-10zM374 391h10v10h-10z" fill="#fff4d9" stroke="none"/>
+      <path d="M165 365h24M177 353v24M355 174h22M366 163v22" stroke="#fff4d9" stroke-width="4"/>
     </g>
-    <rect x="72" y="146" width="38" height="3" fill="#20283c"/>
   </svg>
-
-  <a class="kc-dino-link" href="https://kimiko-11.github.io/HCI_Dino_game/" target="_blank" rel="noopener noreferrer" aria-label="Play the existing Dino Game (opens in a new tab)">
-    <svg class="kc-dino-link__icon" viewBox="0 0 32 32" role="img" aria-hidden="true" shape-rendering="crispEdges">
-      <path fill="currentColor" d="M18 2h7v3h4v8h-4v4h-5v4h-3v6h-4v-4H9v4H5v-7h4v-5h4v-8h5zM25 7h2v2h-2zM2 25h5v3H2zM17 17h4v3h-4z"/>
-    </svg>
-    <span>PLAY ME</span>
-  </a>
-
-  <div class="kc-artifact kc-artifact--laptop">
-    <svg viewBox="0 0 180 125" xmlns="http://www.w3.org/2000/svg">
-      <g stroke="#222b3c" stroke-width="4" stroke-linejoin="round">
-        <path d="M38 15h104v72H38z" fill="#e9ddc9"/>
-        <path d="M46 23h88v55H46z" fill="#879ca0"/>
-        <path d="m58 63 18-20 17 13 16-19 18 26" fill="none" stroke="#f6d37d" stroke-width="5"/>
-        <path d="M24 91h132l14 17H12z" fill="#c2b49d"/>
-        <path d="M71 96h39" stroke="#786f63" stroke-width="3"/>
-      </g>
-      <circle cx="91" cy="17" r="2" fill="#222b3c"/>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--binary">
-    <svg viewBox="0 0 120 150" xmlns="http://www.w3.org/2000/svg">
-      <path d="M15 8h74l18 18v116H15z" fill="#fff8e9" stroke="#293047" stroke-width="4"/>
-      <path d="M89 8v20h18" fill="#dfd2b7" stroke="#293047" stroke-width="4"/>
-      <path d="M29 48h56M29 62h68M29 76h52M29 90h65M29 104h47M29 118h59" stroke="#c77b58" stroke-width="4" stroke-dasharray="4 5"/>
-      <text x="29" y="39" fill="#293047" font-family="monospace" font-size="12" font-weight="700">010101</text>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--folder">
-    <svg viewBox="0 0 150 115" xmlns="http://www.w3.org/2000/svg">
-      <path d="M12 30h53l12 13h61v59H12z" fill="#f2cc61" stroke="#293047" stroke-width="5" stroke-linejoin="round"/>
-      <path d="M12 42h126l-10 60H20z" fill="#f7d878" stroke="#293047" stroke-width="5" stroke-linejoin="round"/>
-      <path d="M35 67h68m-68 13h48" stroke="#c79b33" stroke-width="4" stroke-linecap="round"/>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--report">
-    <svg viewBox="0 0 130 160" xmlns="http://www.w3.org/2000/svg">
-      <path d="M15 9h75l25 24v116H15z" fill="#fffaf0" stroke="#293047" stroke-width="4"/>
-      <path d="M90 9v25h25" fill="#e6d9c2" stroke="#293047" stroke-width="4"/>
-      <path d="M30 52h66M30 64h55" stroke="#7b8488" stroke-width="4"/>
-      <path d="M32 117V91h14v26m9 0V80h14v37m9 0V98h14v19" fill="#d77954" stroke="#293047" stroke-width="3"/>
-      <path d="M27 126h75" stroke="#293047" stroke-width="3"/>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--vision">
-    <svg viewBox="0 0 170 150" xmlns="http://www.w3.org/2000/svg">
-      <path d="m18 118 46-77 87 17-45 72z" fill="#b8d0ca" fill-opacity=".72" stroke="#26334b" stroke-width="4"/>
-      <path d="m18 118 1-29 46-77m0 29v29m41 60V58m45 0v30M19 89l87 17m-65-47 87 17m-65-47 87 17M47 70l45 48m-19-56 44 47m-18-54 44 47" fill="none" stroke="#536477" stroke-width="2.5"/>
-      <path d="m18 118 46-77 87 17" fill="none" stroke="#d96348" stroke-width="4" stroke-dasharray="5 6"/>
-      <circle cx="64" cy="41" r="5" fill="#d96348"/><circle cx="151" cy="58" r="5" fill="#d96348"/>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--eye">
-    <svg viewBox="0 0 180 110" xmlns="http://www.w3.org/2000/svg">
-      <path d="M12 56Q48 9 90 18q43-9 78 38-35 45-78 38Q48 103 12 56z" fill="#f4eee1" stroke="#26334b" stroke-width="5"/>
-      <circle cx="90" cy="56" r="28" fill="#83a6a4" stroke="#26334b" stroke-width="4"/>
-      <circle cx="90" cy="56" r="12" fill="#293047"/>
-      <circle cx="98" cy="47" r="5" fill="#fffaf0"/>
-      <path d="M4 20h19m-9-9v18m140 63h20m-10-10v20" stroke="#d96348" stroke-width="3"/>
-      <path d="M145 15 128 34m38-18-17 19" stroke="#d96348" stroke-width="2" stroke-dasharray="3 4"/>
-    </svg>
-  </div>
-
-  <div class="kc-artifact kc-artifact--hand">
-    <svg viewBox="0 0 150 185" xmlns="http://www.w3.org/2000/svg">
-      <g fill="#a9b5b2" stroke="#26334b" stroke-width="4" stroke-linejoin="round">
-        <path d="m51 164-12-43 7-40q2-9 9-7t6 11l-2 19 4-61q1-10 9-9t7 10l-1 48 5-57q1-10 9-9t7 10l-1 60 6-43q2-9 10-7 8 2 6 11l-6 69q-2 22-24 32l-7 16z"/>
-        <path d="m46 112-19-19q-7-7-13 0-5 7 2 14l23 30" fill="#d0d5cc"/>
-        <path d="m55 160 45-2m-39-30 10 4m28-5 9 3m-43-42 8 3m27-7 8 3" fill="none"/>
-      </g>
-      <circle cx="74" cy="102" r="5" fill="#d96348"/><circle cx="98" cy="99" r="5" fill="#d96348"/>
-    </svg>
-  </div>
 </div>
 <div class="kc-container">
 
@@ -181,6 +127,5 @@ description: "Meet Kimaya Chavan — an AI and perception engineer in the making
 <h2>WONDER FIRST. ENGINEER NEXT.</h2>
 </footer>
 
-</div>
 </div>
 </div>
