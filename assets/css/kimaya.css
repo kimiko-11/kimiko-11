@@ -1010,12 +1010,14 @@ h1, h2, h3, h4,
 }
 
 .kc-experience,
-.kc-page--projects,
+.kc-page--projects {
+  background-color: var(--kc-white);
+}
+
 .kc-page--lab-notes {
   background-color: var(--kc-steel-blue);
 }
 
-.kc-page--projects .kc-list .kc-item,
 .kc-page--lab-notes .kc-list .kc-item,
 .kc-page--lab-notes .kc-list .kc-item:nth-child(odd) {
   background: var(--kc-steel-blue);
