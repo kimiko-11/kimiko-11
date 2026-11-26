@@ -60,7 +60,7 @@ redirect_from:
       <p class="kc-item__stack">Object Detection · Multi-Object Tracking · Motion Analysis · Robotics Perception</p>
 </article>
 <article class="kc-item">
-<img src="https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=rapidreceipt_fg_organize&clid=SAPDAM&id=7241d0e9ad2799b5a248e9b0bd4e600f17b58507&prclid=productpictures&prid=original&vid=7241d0e9ad2799b5a248e9b0bd4e600f17b58507" alt="Receipt document scanner used for digitising printed documents" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<img src="{{ '/assets/images/projects/ocr-document-understanding.png' | relative_url }}" alt="OCR document understanding project screenshot" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
       <h3>
         <a href="https://github.com/kimiko-11/OCR-Based-Document-Understanding-System"
            target="_blank"
