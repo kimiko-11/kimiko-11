@@ -19,6 +19,7 @@
   --kc-blue-gray-section: #EEF2F6;
   --kc-blue-gray-border: #DCE3EB;
   --kc-blue-gray-hover: #E8EDF3;
+  --kc-steel-blue: #C6D5E4;
   --kc-max-width: 1180px;
 }
 
@@ -1006,6 +1007,18 @@ h1, h2, h3, h4,
 .kc-page--research .kc-item:nth-child(odd),
 .kc-page--lab-notes .kc-item:nth-child(odd) {
   background-color: var(--kc-white);
+}
+
+.kc-experience,
+.kc-page--projects,
+.kc-page--lab-notes {
+  background-color: var(--kc-steel-blue);
+}
+
+.kc-page--projects .kc-list .kc-item,
+.kc-page--lab-notes .kc-list .kc-item,
+.kc-page--lab-notes .kc-list .kc-item:nth-child(odd) {
+  background: var(--kc-steel-blue);
 }
 
 :focus-visible {
