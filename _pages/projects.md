@@ -121,6 +121,18 @@ redirect_from:
 <p>Hands-on work with ROS2 communication, publishers, subscribers, nodes and robotic system architecture.</p>
 <p class="kc-item__stack">ROS2 Humble · Python · Linux</p>
 </article>
+<article class="kc-item">
+<img src="https://raw.githubusercontent.com/kimiko-11/turtlebot3-object-follower/main/src/turtlebot_Environment.png" alt="TurtleBot3 object follower simulation environment" loading="lazy" style="display:block;width:100%;aspect-ratio:2.14 / 1;object-fit:cover;border-radius:12px;margin-bottom:1rem;" />
+<h3>
+  <a href="https://github.com/kimiko-11/turtlebot3-object-follower"
+     target="_blank"
+     rel="noopener noreferrer">
+    TurtleBot3 Object Follower
+  </a>
+</h3>
+<p>A ROS 2 object-tracking project that detects a red object in a Gazebo camera feed, tracks its horizontal position and publishes velocity commands for a TurtleBot3 Waffle Pi to follow it.</p>
+<p class="kc-item__stack">ROS 2 Humble · Gazebo · OpenCV · Python</p>
+</article>
 </div>
 </section>
 
