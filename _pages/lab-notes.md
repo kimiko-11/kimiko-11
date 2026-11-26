@@ -7,7 +7,7 @@ redirect_from:
   - /year-archive/
 ---
 
-<div class="kc-page">
+<div class="kc-page kc-page--lab-notes">
 <div class="kc-container">
 
 <header class="kc-page__header">

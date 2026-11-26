@@ -15,6 +15,10 @@
   --kc-sage: #E5EBDD;
   --kc-sage-text: #435640;
   --kc-amber: #F5E7C8;
+  --kc-blue-gray-card: #F0F3F7;
+  --kc-blue-gray-section: #F5F7FA;
+  --kc-blue-gray-border: #DCE3EB;
+  --kc-blue-gray-hover: #E8EDF3;
   --kc-max-width: 1180px;
 }
 
@@ -977,6 +981,31 @@ h1, h2, h3, h4,
 
 .kc-footer a:hover {
   color: var(--kc-orange);
+}
+
+.kc-page--projects .kc-item {
+  background: var(--kc-blue-gray-card);
+  border-color: var(--kc-blue-gray-border);
+  border-left: 3px solid var(--kc-orange);
+}
+
+.kc-page--projects .kc-item:hover {
+  transform: translateY(-1px);
+  background: var(--kc-blue-gray-hover);
+  border-color: #CBD5E1;
+  border-left-color: var(--kc-orange);
+  box-shadow: 0 4px 12px rgba(48, 61, 77, 0.08);
+}
+
+.kc-page--research .kc-item,
+.kc-page--lab-notes .kc-item {
+  background-color: var(--kc-blue-gray-section);
+  border-bottom-color: var(--kc-blue-gray-border);
+}
+
+.kc-page--research .kc-item:nth-child(odd),
+.kc-page--lab-notes .kc-item:nth-child(odd) {
+  background-color: var(--kc-white);
 }
 
 :focus-visible {

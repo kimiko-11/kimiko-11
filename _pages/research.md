@@ -7,7 +7,7 @@ redirect_from:
   - /publications/
 ---
 
-<div class="kc-page">
+<div class="kc-page kc-page--research">
 <div class="kc-container">
 
 <header class="kc-page__header">
